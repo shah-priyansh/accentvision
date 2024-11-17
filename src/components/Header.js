@@ -189,7 +189,7 @@ function Header() {
                           </li>
                       </ul>
                       <div className='get-demo'>
-                          <a className='btn btn-outline-dark' href='#'>Get in Touch</a>
+                          <a className='btn hl-btn' href='#'>Get in Touch</a>
                       </div>
                   </div>
               </div>
