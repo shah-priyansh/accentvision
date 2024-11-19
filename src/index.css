@@ -1,5 +1,5 @@
 :root {
-  --primary-color :#3db2dd;
+  --primary-color :#03346f;
   --text-color :#bdc3ca;
   --secodary-color :#1a1b2e;
   --dark-primary-color :#0b2d53;
@@ -9,7 +9,7 @@
 body {
   font-family: 'Whyte';
   color: #ffffff;
-  background-color: #03346f;
+  background-color: var(--primary-color);
   font-weight: 400;
 }
 a {
@@ -23,6 +23,9 @@ a {
 }
 .text-lt {
   color: var(--text-color);
+}
+.bg-dark-primary {
+  background-color: var(--dark-primary-color) !important;
 }
 .main-header {
   background-color: #020e24;
@@ -281,6 +284,7 @@ a {
     .we-icon svg {
       width: 50px;
       height: 50px;
+
       path {
         fill: #ffffff;
       }
@@ -559,6 +563,7 @@ a {
     svg {
       width: 50px;
       height: 50px;
+      flex: 0 0 50px;
       path {
         fill: var(--highlight-color);
       }
@@ -607,7 +612,48 @@ a {
   padding: 70px 0;
 
 }
-
+.service-div {
+  background-color: var(--dark-primary-color);
+  padding: 70px 0;
+}
+.os-card {
+  background-color: var(--primary-color);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+  height: 100%;
+  .os-img {
+    img {
+      width: 100%;
+    }
+  }
+  .os-content {
+    padding: 30px;
+    h3 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 18px;
+      color: var(--text-color);
+      margin-bottom: 0;
+    }
+  }
+}
+.customer-div {
+  padding: 70px 0;
+  .customer-img {
+    padding: 5px;
+    border: 2px solid var(--highlight-color);
+  }
+}
+.erp-solutions-div {
+  padding: 70px 0;
+  background-color: var(--dark-primary-color);
+  .mv-points {
+    h4 {
+      background-color: var(--primary-color);
+      margin-bottom: 30px;
+    }
+  }
+}
 @media screen and (max-width: 767px) {
   .page-banner-div {
     .page-banner-content {

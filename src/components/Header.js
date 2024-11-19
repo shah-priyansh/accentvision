@@ -36,9 +36,9 @@ function Header() {
                                               <h5>Insight's Menu</h5>
                                           </div>
                                       </div>
-                                      <div className='col-md-6'>
+                                      <div className='col-md-4'>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/about'>
                                                   About Us
                                                   <span>
                                                       Accentvision Technology Inc is a world-class Technology Solutions provider specializing in the following cutting-edge offerings:
@@ -46,11 +46,19 @@ function Header() {
                                               </a>
                                           </div>
                                       </div>
-                                      <div className='col-md-6'>
+                                      <div className='col-md-4'>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/quality-and-strategy'>
                                                   Quality & Strategy
                                                   <span>Establish best practices and quality framework as per customer requirements.</span>
+                                              </a>
+                                          </div>
+                                      </div>
+                                      <div className='col-md-4'>
+                                          <div className='menu-box'>
+                                              <a href='/academy'>
+                                                  Academy
+                                                  <span>Smarter Way Of Building Career In IT </span>
                                               </a>
                                           </div>
                                       </div>
@@ -63,13 +71,13 @@ function Header() {
                                   <span>Solutions</span>
                               </a>
                               <div className="mega-dropdown dropdown-menu" aria-labelledby="navbarDropdown">
-                                  <div className='row'>
+                              <div className='row'>
                                       <div className='col-md-4'>
                                           <div className='menu-box-title'>
                                               <h5>Solution's</h5>
                                           </div>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/artificial-intelligence-services'>
                                                   Artificial Intellegence
                                                   <span>
                                                       Harness the power of Artificial Intelligence to transform your business..
@@ -77,19 +85,19 @@ function Header() {
                                               </a>
                                           </div>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/pos-and-ecom'>
                                                   POS and E-Commerce
                                                   <span>Our top-rated business management solution integrates..</span>
                                               </a>
                                           </div>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/sales-force-solutions'>
                                                   Salesforce Solutions
                                                   <span>Our top-rated business management solution integrates..</span>
                                               </a>
                                           </div>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/erp'>
                                                   ERP Solutions
                                                   <span>Experience a Paradigm Shift: Say Goodbye to Exorbitant ERP Expenses..</span>
                                               </a>
@@ -100,13 +108,13 @@ function Header() {
                                               <h5>Enterprise Mobile Apps</h5>
                                           </div>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/andriod-app-development'>
                                                   Android Development
                                                   <span>Why Choose Our Android App Development Service?</span>
                                               </a>
                                           </div>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/iosDev'>
                                                   IOS Development
                                                   <span>When it comes to crafting exceptional iOS apps</span>
                                               </a>
@@ -117,25 +125,25 @@ function Header() {
                                               <h5>Others</h5>
                                           </div>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/data-analytics'>
                                                   Data Platform & Analytics
                                                   <span>Celebrate Excellence in Data Solutions with Us</span>
                                               </a>
                                           </div>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/productization'>
                                                   productization
                                                   <span>Empower Your Product Evolution with Our Expertise!</span>
                                               </a>
                                           </div>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/automation'>
                                                   Automation
                                                   <span>Accentvision: Elevating Automation Excellence</span>
                                               </a>
                                           </div>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/cloud-services'>
                                                   Cloud Services
                                                   <span>Accentvision: Your Partner in Cloud Transformation</span>
                                               </a>
@@ -158,7 +166,7 @@ function Header() {
                                       </div>
                                       <div className='col-md-6'>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/onshore-staffing'>
                                                   Onshore Staffing
                                                   <span>
                                                        Your Gateway to Global Talent with Cost Efficiency
@@ -168,7 +176,7 @@ function Header() {
                                       </div>
                                       <div className='col-md-6'>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/offshore-staffing'>
                                                   Offshore Staffing
                                                   <span> Your Gateway to Global Talent with Cost Efficiency </span>
                                               </a>
@@ -183,7 +191,7 @@ function Header() {
                               </a>
                           </li>
                           <li className="nav-item">
-                              <a className="nav-link" href="/Contact">
+                              <a className="nav-link" href="/contact">
                                   <span>Contact Us</span>
                               </a>
                           </li>

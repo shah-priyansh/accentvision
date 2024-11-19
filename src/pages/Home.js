@@ -31,15 +31,6 @@ function Home() {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <div class="owl-carousel owl-theme">
-                <div> Your Content </div>
-                <div> Your Content </div>
-                <div> Your Content </div>
-                <div> Your Content </div>
-                <div> Your Content </div>
-                <div> Your Content </div>
-                <div> Your Content </div>
-              </div>
               <div className="div-title text-center mb-5">
                 <span className="hl-color">Partner</span>
                 <h3> We are Your Global Elite Partner </h3>
