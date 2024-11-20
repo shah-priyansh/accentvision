@@ -6,7 +6,7 @@ function About() {
       <div className='page-banner-div overflow-hidden'>
         <div className='row align-items-center'>
           <div className='col-md-6'>
-            <div className='page-banner-content'>
+            <div className='page-banner-content wow animate__animated animate__fadeInLeft'>
               <h1>Salesforce Integration &<br/> <span className='hl-color'>Customization</span></h1>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
@@ -15,7 +15,7 @@ function About() {
             </div>
           </div>
           <div className='col-md-6'>
-            <div className='page-banner-img'>
+            <div className='page-banner-img wow animate__animated animate__fadeInRight'>
               <img src='/assets/images/about/about-banner.jpg' alt='img' className='img-fluid' width='100%'/>
             </div>
           </div>
@@ -27,13 +27,13 @@ function About() {
         <div className='container'>
           <div className="col-md-12">
             <div className="div-title text-center mb-5">
-              <span className="hl-color">Transform Your Business with Salesforce</span>
-              <h3> Why Choose Accentvision?</h3>
+              <span className="hl-color wow animate__animated animate__fadeInDown">Transform Your Business with Salesforce</span>
+              <h3 className='wow animate__animated animate__fadeInUp'> Why Choose Accentvision?</h3>
             </div>
           </div>
           <div className="row">
             <div className="col-md-3">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                        fill="#000000">
@@ -49,7 +49,7 @@ function About() {
               </div>
             </div>
             <div className="col-md-3">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                        fill="#000000">
@@ -65,7 +65,7 @@ function About() {
               </div>
             </div>
             <div className="col-md-3">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                        fill="#000000">
@@ -80,7 +80,7 @@ function About() {
               </div>
             </div>
             <div className="col-md-3">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                        fill="#000000">
@@ -103,13 +103,13 @@ function About() {
         <div className='container'>
           <div className="col-md-12">
             <div className="div-title text-center mb-5">
-              <span className="hl-color">services</span>
-              <h3> We cover full spectrum of Salesforce transformation services </h3>
+              <span className="hl-color wow animate__animated animate__fadeInDown">services</span>
+              <h3 className='wow animate__animated animate__fadeInUp'> We cover full spectrum of Salesforce transformation services </h3>
             </div>
           </div>
           <div className='row'>
             <div className='col-md-12 order-1 order-sm-1 order-md-1'>
-              <div className='quality-img mb-5'>
+              <div className='quality-img mb-5 wow animate__animated animate__zoomIn'>
                 <img
                     src="/assets/images/salesforce/Salesforce.png"
                     alt="img"
@@ -126,32 +126,32 @@ function About() {
           <div className='row'>
             <div className="col-md-12">
               <div className="div-title text-center mb-5">
-                <span className="hl-color">customers </span>
-                <h3> Our top customers </h3>
+                <span className="hl-color wow animate__animated animate__fadeInDown">customers </span>
+                <h3 className='wow animate__animated animate__fadeInUp'> Our top customers </h3>
               </div>
             </div>
             <div className='col-4 col-md'>
-              <div className='customer-img'>
+              <div className='customer-img wow animate__animated animate__zoomIn'>
                 <img src='/assets/images/ai/customer1.png' alt='img' className='img-fluid'/>
               </div>
             </div>
             <div className='col-4 col-md'>
-              <div className='customer-img'>
+              <div className='customer-img wow animate__animated animate__zoomIn'>
                 <img src='/assets/images/ai/customer2.png' alt='img' className='img-fluid'/>
               </div>
             </div>
             <div className='col-4 col-md'>
-              <div className='customer-img'>
+              <div className='customer-img wow animate__animated animate__zoomIn'>
                 <img src='/assets/images/ai/customer3.png' alt='img' className='img-fluid'/>
               </div>
             </div>
             <div className='col-4 col-md'>
-              <div className='customer-img'>
+              <div className='customer-img wow animate__animated animate__zoomIn'>
                 <img src='/assets/images/ai/customer4.png' alt='img' className='img-fluid'/>
               </div>
             </div>
             <div className='col-4 col-md'>
-              <div className='customer-img'>
+              <div className='customer-img wow animate__animated animate__zoomIn'>
                 <img src='/assets/images/ai/customer5.png' alt='img' className='img-fluid'/>
               </div>
             </div>

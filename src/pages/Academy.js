@@ -6,7 +6,7 @@ function About() {
     <div className='page-banner-div overflow-hidden'>
       <div className='row align-items-center'>
         <div className='col-md-6'>
-          <div className='page-banner-content'>
+          <div className='page-banner-content wow animate__animated animate__fadeInLeft'>
             <h1>Academy</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -14,7 +14,7 @@ function About() {
           </div>
         </div>
         <div className='col-md-6'>
-          <div className='page-banner-img'>
+          <div className='page-banner-img wow animate__animated animate__fadeInRight'>
             <img src='/assets/images/about/about-banner.jpg' alt='img' className='img-fluid' width='100%'/>
           </div>
         </div>
@@ -26,13 +26,13 @@ function About() {
       <div className='container'>
         <div className="col-md-12">
           <div className="div-title text-center mb-5">
-            <span className="hl-color">Best</span>
-            <h3> Get The Best From The Industry Experts </h3>
+            <span className="hl-color wow animate__animated animate__fadeInDown">Best</span>
+            <h3 className='wow animate__animated animate__fadeInUp'> Get The Best From The Industry Experts </h3>
           </div>
         </div>
         <div className='row'>
           <div className='col-md-12 order-1 order-sm-1 order-md-1'>
-            <div className='quality-img mb-5'>
+            <div className='quality-img mb-5 wow animate__animated animate__fadeInUp'>
               <img
                   src="/assets/images/academy/academy2.jpg"
                   alt="img"
@@ -41,7 +41,7 @@ function About() {
             </div>
           </div>
           <div className='col-md-6 order-1 order-sm-1 order-md-2'>
-            <div className='content-div ps-md-4'>
+            <div className='content-div ps-md-4 wow animate__animated animate__fadeInLeft'>
               <h3>
                 Who can join this program?
               </h3>
@@ -72,7 +72,7 @@ function About() {
 
           </div>
           <div className='col-md-6 order-1 order-sm-1 order-md-2'>
-            <div className='content-div ps-md-4'>
+            <div className='content-div ps-md-4 wow animate__animated animate__fadeInRight'>
               <h3>
                 Your Takeaways...
               </h3>
@@ -138,12 +138,12 @@ function About() {
         <div className="row align-items-center">
           <div className="col-md-12">
             <div className="div-title text-center mb-5">
-              <span className="hl-color">Way</span>
-              <h3> Smarter Way Of Building Career In IT </h3>
+              <span className="hl-color wow animate__animated animate__fadeInDown">Way</span>
+              <h3 className='wow animate__animated animate__fadeInUp'> Smarter Way Of Building Career In IT </h3>
             </div>
           </div>
           <div className="col-md-6 pe-md-5">
-            <div className="quality-img">
+            <div className="quality-img wow animate__animated animate__fadeInLeft">
               <img
                   src="/assets/images/academy/academy1.png"
                   alt="img"
@@ -152,7 +152,7 @@ function About() {
             </div>
           </div>
           <div className="col-md-6">
-            <div className="wa-card active">
+            <div className="wa-card active wow animate__animated animate__zoomInUp">
               <div className="we-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                      fill="#000000">
@@ -167,7 +167,7 @@ function About() {
                 </p>
               </div>
             </div>
-            <div className="wa-card">
+            <div className="wa-card wow animate__animated animate__zoomInUp">
               <div className="we-icon">
 
                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
@@ -184,7 +184,7 @@ function About() {
                 </p>
               </div>
             </div>
-            <div className="wa-card">
+            <div className="wa-card wow animate__animated animate__zoomInUp">
               <div className="we-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                      fill="#000000">

@@ -1,14 +1,39 @@
 // src/pages/Home.js
 import React, { Fragment } from "react";
+import OwlCarousel from "react-owl-carousel";
 
-function Home() {
+const Home = () => {
+
+  //Owl Carousel Settings
+  const options1 = {
+    loop: false,
+    items: 3,
+    stagePadding: 0,
+    margin: 20,
+    autoplay: true,
+    dots: true,
+    autoplayTimeout: 3000,
+    smartSpeed: 450,
+    nav: false,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 2
+      },
+      1000: {
+        items: 3,
+      }
+    }
+  };
   return (
     <div className="home-content">
       <div className="banner-div">
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-md-7">
-              <div className="banner-content">
+              <div className="banner-content wow animate__animated animate__fadeInLeft">
                 <h1>
                   Enterprise
                   <span className="hl-color"> Mobile App </span>
@@ -16,7 +41,7 @@ function Home() {
               </div>
             </div>
             <div className="col-md-5">
-              <div className="banner-img">
+              <div className="banner-img wow animate__animated animate__fadeInRight">
                 <img
                   src="/assets/images/banner-img1.png"
                   alt="img"
@@ -32,12 +57,12 @@ function Home() {
           <div className="row">
             <div className="col-md-12">
               <div className="div-title text-center mb-5">
-                <span className="hl-color">Partner</span>
-                <h3> We are Your Global Elite Partner </h3>
+                <span className="hl-color wow animate__animated animate__fadeInDown">Partner</span>
+                <h3 className='wow animate__animated animate__fadeInUp'> We are Your Global Elite Partner </h3>
               </div>
             </div>
             <div className="col-md-6">
-              <div className="wa-card active">
+              <div className="wa-card active wow animate__animated animate__zoomInUp">
                 <div className="we-icon">
                   <svg
                     width="24"
@@ -61,7 +86,7 @@ function Home() {
                   </p>
                 </div>
               </div>
-              <div className="wa-card">
+              <div className="wa-card wow animate__animated animate__zoomInUp">
                 <div className="we-icon">
                   <svg
                     width="24"
@@ -85,7 +110,7 @@ function Home() {
                   </p>
                 </div>
               </div>
-              <div className="wa-card">
+              <div className="wa-card wow animate__animated animate__zoomInUp">
                 <div className="we-icon">
                   <svg
                     width="24"
@@ -111,7 +136,7 @@ function Home() {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="video w-embed">
+              <div className="video w-embed wow animate__animated animate__fadeInRight">
                 <video width="100%" autoPlay="" loop="" muted="" playsInline="">
                   <source
                     src="https://player.vimeo.com/progressive_redirect/playback/856965749/rendition/720p/file.mp4?loc=external&amp;signature=7910641d0578740e4b63b29071476babf145ae25232830cbdf3bf1693fd556b1"
@@ -129,14 +154,14 @@ function Home() {
           <div className="row">
             <div className="col-md-12">
               <div className="div-title text-center mb-5 pb-3">
-                <span className="hl-color">Services</span>
-                <h3>Solutions for your business needs</h3>
+                <span className="hl-color wow animate__animated animate__fadeInDown">Services</span>
+                <h3 className='wow animate__animated animate__fadeInUp'>Solutions for your business needs</h3>
               </div>
             </div>
           </div>
           <div className="row">
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg
                     width="24"
@@ -159,7 +184,7 @@ function Home() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg
                     width="24"
@@ -182,7 +207,7 @@ function Home() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg
                     width="24"
@@ -205,7 +230,7 @@ function Home() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg
                     width="24"
@@ -229,7 +254,7 @@ function Home() {
             </div>
 
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg
                     width="24"
@@ -252,7 +277,7 @@ function Home() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg
                     width="24"
@@ -275,7 +300,7 @@ function Home() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg
                     width="24"
@@ -298,7 +323,7 @@ function Home() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg
                     width="24"
@@ -329,18 +354,18 @@ function Home() {
           <div className="row">
             <div className="col-md-12"></div>
             <div className="div-title text-center mb-5">
-              <span className="hl-color">Clients</span>
-              <h3>Testimonials</h3>
+              <span className="hl-color wow animate__animated animate__fadeInDown">Clients</span>
+              <h3 className='wow animate__animated animate__fadeInUp'>Testimonials</h3>
             </div>
             <div className="col-md-12">
-              <div className="row">
-                <div className="col-md-4">
+              <OwlCarousel className="owl-theme" {...options1}>
+                <div className="item">
                   <div className="testimonial-card h-100">
                     <div className="tsm-img mx-auto">
                       <img
-                        src="/assets/images/user.jpg"
-                        alt="img"
-                        className="img-fluid"
+                          src="/assets/images/user.jpg"
+                          alt="img"
+                          className="img-fluid"
                       />
                     </div>
                     <div className="tsm-content">
@@ -355,13 +380,13 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-4">
+                <div className="item">
                   <div className="testimonial-card h-100">
                     <div className="tsm-img mx-auto">
                       <img
-                        src="/assets/images/user.jpg"
-                        alt="img"
-                        className="img-fluid"
+                          src="/assets/images/user.jpg"
+                          alt="img"
+                          className="img-fluid"
                       />
                     </div>
                     <div className="tsm-content">
@@ -374,13 +399,13 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-4">
+                <div className="item">
                   <div className="testimonial-card h-100">
                     <div className="tsm-img mx-auto">
                       <img
-                        src="/assets/images/user.jpg"
-                        alt="img"
-                        className="img-fluid"
+                          src="/assets/images/user.jpg"
+                          alt="img"
+                          className="img-fluid"
                       />
                     </div>
                     <div className="tsm-content">
@@ -394,7 +419,8 @@ function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </OwlCarousel>
+
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@ function About() {
       <div className='page-banner-div overflow-hidden'>
         <div className='row align-items-center'>
           <div className='col-md-6'>
-            <div className='page-banner-content'>
+            <div className='page-banner-content wow animate__animated animate__fadeInLeft'>
               <h1>Point of Sales and <br/> <span className='hl-color'>E-Commerce </span></h1>
               <p>
                 Our top-rated business management solution integrates cutting-edge technology to streamline
@@ -16,7 +16,7 @@ function About() {
             </div>
           </div>
           <div className='col-md-6'>
-            <div className='page-banner-img'>
+            <div className='page-banner-img wow animate__animated animate__fadeInRight'>
               <img src='/assets/images/about/about-banner.jpg' alt='img' className='img-fluid' width='100%'/>
             </div>
           </div>
@@ -28,14 +28,14 @@ function About() {
         <div className='container'>
           <div className="col-md-12">
             <div className="div-title text-center mb-5">
-            <span className="hl-color">Key Features</span>
-              <h3> Complete
+            <span className="hl-color wow animate__animated animate__fadeInDown">Key Features</span>
+              <h3 className='wow animate__animated animate__fadeInUp'> Complete
                 Solutions for Seamless Transactions and Online Growth</h3>
             </div>
           </div>
           <div className="row">
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
                        width="24px"
@@ -53,7 +53,7 @@ function About() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
                        width="24px"
@@ -71,7 +71,7 @@ function About() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                        fill="#000000">
@@ -88,7 +88,7 @@ function About() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                        fill="#000000">
@@ -108,7 +108,7 @@ function About() {
             </div>
 
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                        fill="#000000">
@@ -125,7 +125,7 @@ function About() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                        fill="#000000">
@@ -141,7 +141,7 @@ function About() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                        fill="#000000">
@@ -158,7 +158,7 @@ function About() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                        fill="#000000">
@@ -175,7 +175,7 @@ function About() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                        fill="#000000">
@@ -190,7 +190,7 @@ function About() {
                 </p>
               </div>
             </div>
-            <p>
+            <p className={'wow animate__animated animate__fadeInUp'}>
               <i>
                 With our integrated ecosystem, managing your business has never been easier. Whether you're
                 expanding online or optimizing in-store operations, our solutions are designed to support
@@ -206,13 +206,13 @@ function About() {
         <div className='container'>
           <div className="col-md-12">
             <div className="div-title text-center mb-5">
-              <span className="hl-color">E-Commerce</span>
-              <h3> Point of Sales and E-Commerce </h3>
+              <span className="hl-color wow animate__animated animate__fadeInDown">E-Commerce</span>
+              <h3 className='wow animate__animated animate__fadeInUp'> Point of Sales and E-Commerce </h3>
             </div>
           </div>
           <div className='row'>
             <div className='col-md-12 order-1 order-sm-1 order-md-1'>
-              <div className='quality-img mb-5'>
+              <div className='quality-img mb-5 wow animate__animated animate__zoomIn'>
                 <img
                     src="/assets/images/pos/pos-image.png"
                     alt="img"

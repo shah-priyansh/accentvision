@@ -6,7 +6,7 @@ function About() {
     <div className='page-banner-div overflow-hidden'>
       <div className='row align-items-center'>
         <div className='col-md-6 order-2 order-sm-2 order-md-1'>
-          <div className='page-banner-content'>
+          <div className='page-banner-content wow animate__animated animate__fadeInLeft'>
             <h1>Quality & <span className='hl-color'>Strategy</span></h1>
             <p>
               Establish best practices and quality framework as per customer requirements.
@@ -14,7 +14,7 @@ function About() {
           </div>
         </div>
         <div className='col-md-6 order-2 order-sm-2 order-md-2'>
-          <div className='page-banner-img'>
+          <div className='page-banner-img wow animate__animated animate__fadeInRight'>
             <img src='/assets/images/about/about-banner.jpg' alt='img' className='img-fluid' width='100%'/>
           </div>
         </div>
@@ -22,16 +22,16 @@ function About() {
     </div>
 
 
-    <div className='quality-div'>
+    <div className='quality-div bg-white text-primary-dark'>
       <div className='container'>
         <div className='row align-items-center'>
           <div className='col-md-6 order-1 order-sm-1 order-md-1'>
-            <div className='quality-img'>
+            <div className='quality-img wow animate__animated animate__fadeInLeft'>
               <img src='/assets/images/quality/qualitypolicy.jpg' alt='img' className='img-fluid' width='100%'/>
             </div>
           </div>
           <div className='col-md-6 order-1 order-sm-1 order-md-2'>
-            <div className='content-div ps-md-4'>
+            <div className='content-div ps-md-4 wow animate__animated animate__fadeInRight'>
               <h3>
                 Quality Policy
               </h3>
@@ -69,12 +69,12 @@ function About() {
       <div className='container'>
         <div className='row align-items-center'>
           <div className='col-md-6 order-1 order-sm-1 order-md-2'>
-            <div className='quality-img'>
+            <div className='quality-img wow animate__animated animate__fadeInRight'>
               <img src='/assets/images/quality/ourstartegy.jpg' alt='img' className='img-fluid' width='100%'/>
             </div>
           </div>
           <div className='col-md-6 order-1 order-sm-1 order-md-1'>
-            <div className='content-div pe-md-4'>
+            <div className='content-div pe-md-4 wow animate__animated animate__fadeInLeft'>
               <h3>
                 Our Strategy
               </h3>

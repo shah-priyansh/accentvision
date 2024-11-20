@@ -20,6 +20,7 @@ import Automation from "./pages/Automation";
 import CloudServices from "./pages/CloudServices";
 import OnshoreStaffing from "./pages/OnshoreStaffing";
 import OffshoreStaffing from "./pages/OffshoreStaffing";
+import Career from "./pages/Career";
 import OwlCarousel from "react-owl-carousel";
 import WOW from "wowjs";
 import "animate.css";
@@ -33,7 +34,7 @@ function App() {
     <Router>
       <div className="page-content-div">
         <Header />
-        <div
+        {/*<div
           className={`wow animate__animated animate__fadeIn`}
           data-wow-delay={"0.5s"}
           data-wow-duration={"1s"}
@@ -86,7 +87,7 @@ function App() {
           <div class="item">
             <h4>12</h4>
           </div>
-        </OwlCarousel>
+        </OwlCarousel>*/}
         <div className="flex-grow-1">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -121,6 +122,7 @@ function App() {
             <Route path="/cloud-services" element={<CloudServices />} />
             <Route path="/onshore-staffing" element={<OnshoreStaffing />} />
             <Route path="/offshore-staffing" element={<OffshoreStaffing />} />
+            <Route path="/career" element={<Career />} />
           </Routes>
         </div>
         <Footer />
@@ -128,5 +130,6 @@ function App() {
     </Router>
   );
 }
+
 
 export default App;

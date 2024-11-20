@@ -6,7 +6,7 @@ function About() {
     <div className='page-banner-div overflow-hidden'>
       <div className='row align-items-center'>
         <div className='col-md-6'>
-          <div className='page-banner-content'>
+          <div className='page-banner-content wow animate__animated animate__fadeInLeft'>
             <h1>Accentvision <br/><span className='hl-color'>Technology</span> Inc</h1>
             <p>
               is a world-class Technology Solutions provider specializing in the <br/>following cutting-edge offerings:
@@ -14,7 +14,7 @@ function About() {
           </div>
         </div>
         <div className='col-md-6'>
-          <div className='page-banner-img'>
+          <div className='page-banner-img wow animate__animated animate__fadeInRight'>
             <img src='/assets/images/about/about-banner.jpg' alt='img' className='img-fluid' width='100%'/>
           </div>
         </div>
@@ -25,7 +25,7 @@ function About() {
       <div className='container'>
         <div className='row'>
           <div className='col-md-6'>
-            <div className='about-left'>
+            <div className='about-left wow animate__animated animate__fadeInLeft'>
               <h5>
                 Our unwavering commitment is to meticulously assess the unique requirements of our esteemed clientele
                 and deliver superlative solutions, consistently on schedule and within budget. We harness the power of
@@ -36,7 +36,7 @@ function About() {
 
           </div>
           <div className='col-md-6'>
-            <div className='about-right'>
+            <div className='about-right wow animate__animated animate__fadeInRight'>
               <ul className='ps-3'>
                 <li>Premium Business Platform Solutions - Salesforce</li>
                 <li>Elite IT Staffing and Consultancy Services</li>
@@ -65,7 +65,7 @@ function About() {
       </div>
     </div>
 
-    <div className='about-img-div'>
+    <div className='about-img-div wow animate__animated animate__fadeInUp'>
       <img src='/assets/images/about/about-img.webp' alt='img' className='img-fluid'/>
     </div>
 
@@ -74,12 +74,12 @@ function About() {
         <div className='row'>
           <div className='col-md-12'>
             <div className='div-title text-center mb-5'>
-              <span className='hl-color'>Accentvision</span>
-              <h3> We are Accentvision </h3>
+              <span className='hl-color wow animate__animated animate__fadeInDown'>Accentvision</span>
+              <h3 className='wow animate__animated animate__fadeInUp'> We are Accentvision </h3>
             </div>
           </div>
           <div className='col-md-6'>
-            <div className='mv-card'>
+            <div className='mv-card wow animate__animated animate__fadeInLeft'>
               <div className='mv-icon'>
                 <img src='/assets/images/about/mission.svg' alt='icon' className='img-fluid' width='100'/>
               </div>
@@ -92,7 +92,7 @@ function About() {
             </div>
           </div>
           <div className='col-md-6'>
-            <div className='mv-card'>
+            <div className='mv-card wow animate__animated animate__fadeInRight'>
               <div className='mv-icon'>
                 <img src='/assets/images/about/vision.svg' alt='icon' className='img-fluid' width='100'/>
               </div>
@@ -107,7 +107,7 @@ function About() {
           </div>
         </div>
         <div className='row mv-points mb-3 mt-3'>
-          <div className='col-md-4'>
+          <div className='col-md-4 wow animate__animated animate__zoomIn'>
             <h4>
               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                    fill="#000000">
@@ -117,7 +117,7 @@ function About() {
               Innovation
             </h4>
           </div>
-          <div className='col-md-4'>
+          <div className='col-md-4 wow animate__animated animate__zoomIn'>
             <h4>
               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                    fill="#000000">
@@ -127,7 +127,7 @@ function About() {
               Speed
             </h4>
           </div>
-          <div className='col-md-4'>
+          <div className='col-md-4 wow animate__animated animate__zoomIn'>
             <h4>
               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                    fill="#000000">
@@ -140,7 +140,7 @@ function About() {
         </div>
         <div className='row'>
           <div className='col-md-12'>
-            <div className='mv-img-div'>
+            <div className='mv-img-div wow animate__animated animate__fadeInUp'>
               <img src='/assets/images/about/team.jpg' alt='icon' className='img-fluid' width='100%'/>
             </div>
           </div>

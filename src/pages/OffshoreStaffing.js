@@ -6,7 +6,7 @@ function About() {
       <div className='page-banner-div overflow-hidden'>
         <div className='row align-items-center'>
           <div className='col-md-6'>
-            <div className='page-banner-content'>
+            <div className='page-banner-content wow animate__animated animate__fadeInLeft'>
               <h1>Offshore Staffing </h1>
               <p>
                 Your Gateway to Global Talent with Cost Efficiency <br/>
@@ -15,7 +15,7 @@ function About() {
             </div>
           </div>
           <div className='col-md-6'>
-            <div className='page-banner-img'>
+            <div className='page-banner-img wow animate__animated animate__fadeInRight'>
               <img src='/assets/images/about/about-banner.jpg' alt='img' className='img-fluid' width='100%'/>
             </div>
           </div>
@@ -27,13 +27,13 @@ function About() {
         <div className='container'>
           <div className="col-md-12">
             <div className="div-title text-center mb-5">
-              <span className="hl-color">Choose</span>
-              <h3>Why Choose Accentvision?</h3>
+              <span className="hl-color wow animate__animated animate__fadeInDown">Choose</span>
+              <h3 className='wow animate__animated animate__fadeInUp'>Why Choose Accentvision?</h3>
             </div>
           </div>
           <div className="row">
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                        fill="#000000">
@@ -48,7 +48,7 @@ function About() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                        fill="#000000">
@@ -64,7 +64,7 @@ function About() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                        fill="#000000">
@@ -79,7 +79,7 @@ function About() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                        fill="#000000">
@@ -94,7 +94,7 @@ function About() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                        fill="#000000">
@@ -110,7 +110,7 @@ function About() {
             </div>
 
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                        fill="#000000">
@@ -125,7 +125,7 @@ function About() {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="services-card">
+              <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                        fill="#000000">
@@ -149,13 +149,13 @@ function About() {
         <div className='container'>
           <div className="col-md-12">
             <div className="div-title text-center mb-5">
-              <span className="hl-color">global talent</span>
-              <h3> Unparalleled access to global talent and unmatched staffing solutions</h3>
+              <span className="hl-color wow animate__animated animate__fadeInDown">global talent</span>
+              <h3 className='wow animate__animated animate__fadeInUp'> Unparalleled access to global talent and unmatched staffing solutions</h3>
             </div>
           </div>
           <div className='row'>
             <div className='col-md-12 order-1 order-sm-1 order-md-1'>
-              <div className='quality-img bg-white p-2 p-sm-2 p-md-5 mb-5'>
+              <div className='quality-img bg-white p-2 p-sm-2 p-md-5 mb-5 wow animate__animated animate__zoomIn'>
                 <img
                     src="/assets/images/onshore/Staffing-main.png"
                     alt="img"
@@ -172,32 +172,32 @@ function About() {
           <div className='row'>
             <div className="col-md-12">
               <div className="div-title text-center mb-5">
-                <span className="hl-color">clients </span>
-                <h3> Our valued clients </h3>
+                <span className="hl-color wow animate__animated animate__fadeInDown">clients </span>
+                <h3 className='wow animate__animated animate__fadeInUp'> Our valued clients </h3>
               </div>
             </div>
             <div className='col-4 col-md'>
-              <div className='customer-img'>
+              <div className='customer-img wow animate__animated animate__zoomIn'>
                 <img src='/assets/images/ai/customer1.png' alt='img' className='img-fluid'/>
               </div>
             </div>
             <div className='col-4 col-md'>
-              <div className='customer-img'>
+              <div className='customer-img wow animate__animated animate__zoomIn'>
                 <img src='/assets/images/ai/customer2.png' alt='img' className='img-fluid'/>
               </div>
             </div>
             <div className='col-4 col-md'>
-              <div className='customer-img'>
+              <div className='customer-img wow animate__animated animate__zoomIn'>
                 <img src='/assets/images/ai/customer3.png' alt='img' className='img-fluid'/>
               </div>
             </div>
             <div className='col-4 col-md'>
-              <div className='customer-img'>
+              <div className='customer-img wow animate__animated animate__zoomIn'>
                 <img src='/assets/images/ai/customer4.png' alt='img' className='img-fluid'/>
               </div>
             </div>
             <div className='col-4 col-md'>
-              <div className='customer-img'>
+              <div className='customer-img wow animate__animated animate__zoomIn'>
                 <img src='/assets/images/ai/customer5.png' alt='img' className='img-fluid'/>
               </div>
             </div>

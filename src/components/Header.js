@@ -4,23 +4,24 @@ import { Navbar, Nav } from "react-bootstrap";
 
 function Header() {
   return (
-      <header className='main-header'>
+      <header className='main-header wow animate__animated animate__fadeInDown'>
           <nav className="navbar navbar-expand-lg py-0">
               <div className="container">
-
+                  <a className="navbar-brand" href="/"> <img src='/assets/images/logo.png' alt='img'
+                                                             className='img-fluid'
+                                                             width='120'/>
+                  </a>
                   <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                           data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                           aria-expanded="false" aria-label="Toggle navigation">
                       <span className="navbar-toggler-icon"></span>
                   </button>
+
                   <div className="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-                      <a className="navbar-brand" href="#"> <img src='/assets/images/logo.png' alt='img'
-                                                                 className='img-fluid'
-                                                                 width='120'/>
-                      </a>
+
                       <ul className="navbar-nav">
                           <li className="nav-item">
-                              <a className="nav-link" href="#">
+                              <a className="nav-link" href="/">
                                   <span>Home</span>
                               </a>
                           </li>
@@ -71,7 +72,7 @@ function Header() {
                                   <span>Solutions</span>
                               </a>
                               <div className="mega-dropdown dropdown-menu" aria-labelledby="navbarDropdown">
-                              <div className='row'>
+                                  <div className='row'>
                                       <div className='col-md-4'>
                                           <div className='menu-box-title'>
                                               <h5>Solution's</h5>
@@ -186,7 +187,7 @@ function Header() {
                               </div>
                           </li>
                           <li className="nav-item">
-                              <a className="nav-link" href="/Contact">
+                              <a className="nav-link" href="/career">
                                   <span>Career</span>
                               </a>
                           </li>
@@ -197,7 +198,7 @@ function Header() {
                           </li>
                       </ul>
                       <div className='get-demo'>
-                          <a className='btn hl-btn' href='#'>Get in Touch</a>
+                          <a className='btn hl-btn' href='/contact'>Get in Touch</a>
                       </div>
                   </div>
               </div>

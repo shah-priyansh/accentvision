@@ -6,7 +6,7 @@ function About() {
     <div className='page-banner-div overflow-hidden'>
       <div className='row align-items-center'>
         <div className='col-md-6'>
-          <div className='page-banner-content'>
+          <div className='page-banner-content wow animate__animated animate__fadeInLeft'>
             <h1> Odoo Customization </h1>
             <p>
               Experience a Paradigm Shift: Say Goodbye to Exorbitant ERP Expenses. Elevate Your Business with Odoo, the
@@ -17,7 +17,7 @@ function About() {
           </div>
         </div>
         <div className='col-md-6'>
-          <div className='page-banner-img'>
+          <div className='page-banner-img wow animate__animated animate__fadeInRight'>
             <img src='/assets/images/about/about-banner.jpg' alt='img' className='img-fluid' width='100%'/>
           </div>
         </div>
@@ -29,13 +29,13 @@ function About() {
       <div className='container'>
         <div className="col-md-12">
           <div className="div-title text-center mb-5">
-            <span className="hl-color">ERP Solutions</span>
-            <h3> Revolutionize
+            <span className="hl-color wow animate__animated animate__fadeInDown">ERP Solutions</span>
+            <h3 className='wow animate__animated animate__fadeInUp'> Revolutionize
               Your Business with Affordable and Tailored ERP Solutions</h3>
           </div>
         </div>
         <div className='row mv-points mb-3 mt-3'>
-          <div className='col-md-3'>
+          <div className='col-md-3 wow animate__animated animate__zoomIn'>
             <h4>
               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                    fill="#000000">
@@ -45,7 +45,7 @@ function About() {
               CRM
             </h4>
           </div>
-          <div className='col-md-3'>
+          <div className='col-md-3 wow animate__animated animate__zoomIn'>
             <h4>
               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                    fill="#000000">
@@ -55,7 +55,7 @@ function About() {
               Point of Sale
             </h4>
           </div>
-          <div className='col-md-3'>
+          <div className='col-md-3 wow animate__animated animate__zoomIn'>
             <h4>
               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                    fill="#000000">
@@ -65,7 +65,7 @@ function About() {
               Inventory
             </h4>
           </div>
-          <div className='col-md-3'>
+          <div className='col-md-3 wow animate__animated animate__zoomIn'>
             <h4>
               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                    fill="#000000">
@@ -76,7 +76,7 @@ function About() {
             </h4>
           </div>
 
-          <div className='col-md-3'>
+          <div className='col-md-3 wow animate__animated animate__zoomIn'>
             <h4>
               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                    fill="#000000">
@@ -86,7 +86,7 @@ function About() {
               Purchase
             </h4>
           </div>
-          <div className='col-md-3'>
+          <div className='col-md-3 wow animate__animated animate__zoomIn'>
             <h4>
               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                    fill="#000000">
@@ -96,7 +96,7 @@ function About() {
               Employee
             </h4>
           </div>
-          <div className='col-md-3'>
+          <div className='col-md-3 wow animate__animated animate__zoomIn'>
             <h4>
               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                    fill="#000000">
@@ -106,7 +106,7 @@ function About() {
               Website
             </h4>
           </div>
-          <div className='col-md-3'>
+          <div className='col-md-3 wow animate__animated animate__zoomIn'>
             <h4>
               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                    fill="#000000">
@@ -117,7 +117,7 @@ function About() {
             </h4>
           </div>
 
-          <div className='col-md-3'>
+          <div className='col-md-3 wow animate__animated animate__zoomIn'>
             <h4>
               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                    fill="#000000">
@@ -127,7 +127,7 @@ function About() {
               Marketing Automation
             </h4>
           </div>
-          <div className='col-md-3'>
+          <div className='col-md-3 wow animate__animated animate__zoomIn'>
             <h4>
               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                    fill="#000000">
@@ -137,7 +137,7 @@ function About() {
               Email Marketing
             </h4>
           </div>
-          <div className='col-md-3'>
+          <div className='col-md-3 wow animate__animated animate__zoomIn'>
             <h4>
               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                    fill="#000000">
@@ -149,7 +149,7 @@ function About() {
           </div>
 
         </div>
-        <div className="mv-img-div">
+        <div className="mv-img-div wow animate__animated animate__fadeInUp">
           <img src="/assets/images/erp/Bg_banner.png" alt="icon" className="img-fluid" width="100%"/>
         </div>
       </div>
@@ -160,12 +160,12 @@ function About() {
         <div className="row align-items-center">
           <div className="col-md-12">
             <div className="div-title text-center mb-5">
-              <span className="hl-color">Odoo</span>
-              <h3> ERP Solution (Odoo) </h3>
+              <span className="hl-color wow animate__animated animate__fadeInDown">Odoo</span>
+              <h3 className='wow animate__animated animate__fadeInUp'> ERP Solution (Odoo) </h3>
             </div>
           </div>
           <div className="col-md-12">
-            <div className="quality-img">
+            <div className="quality-img wow animate__animated animate__zoomIn">
               <img
                   src="/assets/images/erp/odoo.png"
                   alt="img"
@@ -181,32 +181,32 @@ function About() {
         <div className='row'>
           <div className="col-md-12">
             <div className="div-title text-center mb-5">
-              <span className="hl-color">clients </span>
-              <h3>  Our valued clients  </h3>
+              <span className="hl-color wow animate__animated animate__fadeInDown">clients </span>
+              <h3 className='wow animate__animated animate__fadeInUp'>  Our valued clients  </h3>
             </div>
           </div>
           <div className='col-4 col-md'>
-            <div className='customer-img'>
+            <div className='customer-img wow animate__animated animate__zoomIn'>
               <img src='/assets/images/ai/customer1.png' alt='img' className='img-fluid'/>
             </div>
           </div>
           <div className='col-4 col-md'>
-            <div className='customer-img'>
+            <div className='customer-img wow animate__animated animate__zoomIn'>
               <img src='/assets/images/ai/customer2.png' alt='img' className='img-fluid'/>
             </div>
           </div>
           <div className='col-4 col-md'>
-            <div className='customer-img'>
+            <div className='customer-img wow animate__animated animate__zoomIn'>
               <img src='/assets/images/ai/customer3.png' alt='img' className='img-fluid'/>
             </div>
           </div>
           <div className='col-4 col-md'>
-            <div className='customer-img'>
+            <div className='customer-img wow animate__animated animate__zoomIn'>
               <img src='/assets/images/ai/customer4.png' alt='img' className='img-fluid'/>
             </div>
           </div>
           <div className='col-4 col-md'>
-            <div className='customer-img'>
+            <div className='customer-img wow animate__animated animate__zoomIn'>
               <img src='/assets/images/ai/customer5.png' alt='img' className='img-fluid'/>
             </div>
           </div>

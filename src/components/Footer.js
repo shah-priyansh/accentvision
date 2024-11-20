@@ -5,20 +5,20 @@ import { Container, Row, Col } from "react-bootstrap";
 function Footer() {
   return (
 
-      <footer className="main-footer">
+      <footer className="main-footer wow animate__animated animate__fadeInUp">
           <div id="particles-js"></div>
           <div className='container'>
               <div className='row'>
                   <div className='col-md-12'>
                       <div className='footer-top'>
-                          <h6>Lorem Ipsum is simply dummy.</h6>
-                          <h1>trust the <span>Future</span></h1>
+                          <h6 className='wow animate__animated animate__fadeInDown'>Lorem Ipsum is simply dummy.</h6>
+                          <h1 className='wow animate__animated animate__fadeInDown'>trust the <span>Future</span></h1>
 
-                          <button className='btn hl-btn'>Contact Us</button>
+                          <button className='btn hl-btn wow animate__animated animate__zoomIn'>Contact Us</button>
 
                       </div>
 
-                      <div className='footer-form mb-5'>
+                      <div className='footer-form mb-5 wow animate__animated animate__fadeInUp'>
                           <h5>Stay Connected</h5>
                           <div className='form-div'>
                               <div className='row'>
@@ -57,7 +57,7 @@ function Footer() {
 
 
                       <div className='bottom-footer'>
-                          <div className='footer-link mb-4'>
+                          <div className='footer-link mb-4 wow animate__animated animate__fadeInUp'>
                               <ul>
                                   <li><a href='#'>Home</a></li>
                                   <li><a href='#'>Insights</a></li>
@@ -67,7 +67,7 @@ function Footer() {
                                   <li><a href='#'>Contact Us</a></li>
                               </ul>
                           </div>
-                          <div className='social-link mb-5'>
+                          <div className='social-link mb-5 wow animate__animated animate__fadeInUp'>
                               <a href='#'>
                                   <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
@@ -108,7 +108,7 @@ function Footer() {
 
                               </a>
                           </div>
-                          <div className='copyright-div'>
+                          <div className='copyright-div wow animate__animated animate__fadeInUp'>
                               <p className='text-center'>© Copyright 2023 Accentvision Technology Inc</p>
                           </div>
                       </div>
