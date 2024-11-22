@@ -147,7 +147,7 @@ function About() {
       </div>
 
 
-      <div className='quality-div'>
+      <div className='quality-div bg-white text-primary-dark'>
         <div className='container'>
           <div className='row align-items-center'>
             <div className='col-md-6 order-1 order-sm-1 order-md-1'>

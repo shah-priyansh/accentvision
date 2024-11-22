@@ -21,7 +21,7 @@ function About() {
       </div>
     </div>
 
-    <div className='about-us-div overflow-hidden'>
+    <div className='about-us-div bg-white text-primary-dark overflow-hidden'>
       <div className='container'>
         <div className='row'>
           <div className='col-md-6'>

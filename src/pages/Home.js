@@ -52,7 +52,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="we-are-div py-5">
+      <div className="we-are-div bg-white text-primary-dark py-5">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -349,7 +349,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="testimonial-div">
+      <div className="testimonial-div bg-white text-primary-dark">
         <div className="container">
           <div className="row">
             <div className="col-md-12"></div>

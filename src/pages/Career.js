@@ -49,7 +49,7 @@ const About = () => {
     </div>
 
 
-    <div className='service-div'>
+    <div className='service-div bg-white text-primary-dark'>
       <div className='container'>
         <div className="col-md-12">
           <div className="div-title text-center mb-5">
@@ -187,7 +187,7 @@ const About = () => {
       </div>
     </div>
 
-    <div className='service-div'>
+    <div className='service-div bg-white text-primary-dark'>
       <div className='container'>
         <div className="col-md-12">
           <div className="div-title text-center mb-5">

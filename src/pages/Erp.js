@@ -25,7 +25,7 @@ function About() {
     </div>
 
 
-    <div className='erp-solutions-div'>
+    <div className='erp-solutions-div bg-white text-primary-dark'>
       <div className='container'>
         <div className="col-md-12">
           <div className="div-title text-center mb-5">

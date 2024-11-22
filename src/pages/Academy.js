@@ -22,7 +22,7 @@ function About() {
     </div>
 
 
-    <div className='quality-div'>
+    <div className='quality-div bg-white text-primary-dark'>
       <div className='container'>
         <div className="col-md-12">
           <div className="div-title text-center mb-5">
@@ -133,7 +133,7 @@ function About() {
         </div>
       </div>
     </div>
-    <div className="we-are-div py-5">
+    <div className="we-are-div we-are-dark-div py-5">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-12">

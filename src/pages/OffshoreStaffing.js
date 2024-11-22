@@ -145,7 +145,7 @@ function About() {
       </div>
 
 
-      <div className='quality-div'>
+      <div className='quality-div bg-white text-primary-dark'>
         <div className='container'>
           <div className="col-md-12">
             <div className="div-title text-center mb-5">
