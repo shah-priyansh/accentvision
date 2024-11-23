@@ -137,12 +137,7 @@ function Header() {
                                                   <span>Empower Your Product Evolution with Our Expertise!</span>
                                               </a>
                                           </div>
-                                          <div className='menu-box'>
-                                              <a href='/automation'>
-                                                  Automation
-                                                  <span>Accentvision: Elevating Automation Excellence</span>
-                                              </a>
-                                          </div>
+
                                           <div className='menu-box'>
                                               <a href='/cloud-services'>
                                                   Cloud Services
@@ -165,7 +160,7 @@ function Header() {
                                               <h5>Staffing's Menu</h5>
                                           </div>
                                       </div>
-                                      <div className='col-md-6'>
+                                      <div className='col-md-4'>
                                           <div className='menu-box'>
                                               <a href='/onshore-staffing'>
                                                   Onshore Staffing
@@ -175,11 +170,19 @@ function Header() {
                                               </a>
                                           </div>
                                       </div>
-                                      <div className='col-md-6'>
+                                      <div className='col-md-4'>
                                           <div className='menu-box'>
                                               <a href='/offshore-staffing'>
                                                   Offshore Staffing
                                                   <span> Your Gateway to Global Talent with Cost Efficiency </span>
+                                              </a>
+                                          </div>
+                                      </div>
+                                      <div className='col-md-4'>
+                                          <div className='menu-box'>
+                                              <a href='/automation'>
+                                                  Automation
+                                                  <span>Accentvision: Elevating Automation Excellence</span>
                                               </a>
                                           </div>
                                       </div>
