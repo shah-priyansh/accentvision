@@ -16,6 +16,10 @@ a {
   text-decoration: none;
   color: var(--secodary-color);
 }
+ul{
+  padding: 0;
+  margin: 0;
+}
 .hl-btn {
   border-color: var(--highlight-color)!important;
   background-color: var(--highlight-color)!important;
@@ -113,7 +117,14 @@ a {
           }
         }
       }
+      &:hover {
+        .nav-link + .dropdown-menu {
+          display: block;
+          top: 100%;
+        }
+      }
     }
+
   }
   .get-demo {
     .btn {
@@ -202,8 +213,8 @@ a {
 }
 .banner-div {
   /*min-height: 100vh;*/
-  background-image: url(/public/assets/images/home-banner-bg.jpg);
-  padding: 80px 70px;
+  /*background-image: url(/public/assets/images/home-banner-bg.jpg);*/
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -663,7 +674,8 @@ background-color: var(--dark-primary-color);
   padding: 70px 0;
   .customer-img {
     padding: 5px;
-    border: 2px solid var(--highlight-color);
+    /*border: 2px solid var(--highlight-color);*/
+    /*border-radius: 50%;*/
   }
 }
 .erp-solutions-div {
@@ -701,6 +713,33 @@ background-color: var(--dark-primary-color);
 }
 .navbar-toggler {
   background-color: #ffffff;
+}
+.social-media-link {
+  display: flex;
+  gap: 10px;
+  li {
+    display: block;
+     a {
+      color: #ffffff;
+      border: 1px solid #fff;
+      width: 30px;
+      height: 30px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       svg {
+         width: 20px;
+         height: 20px;
+       }
+
+       &:hover {
+         background-color: var(--highlight-color);
+         border-color: var(--highlight-color);
+       }
+
+    }
+  }
 }
 @media screen and (max-width: 1099px) {
   .main-header {

@@ -1,5 +1,6 @@
 // src/pages/About.js
 import React, {Fragment} from "react";
+import OwlCarousel from "react-owl-carousel";
 
 function About() {
   return <div>
@@ -9,7 +10,9 @@ function About() {
           <div className='page-banner-content wow animate__animated animate__fadeInLeft'>
             <h1>Artificial <span className='hl-color'>Intelligence </span> Services</h1>
             <p>
-              Harness the power of Artificial Intelligence to transform your business and stay ahead of the competition. Our AI solutions are designed to streamline operations, enhance customer engagement, and provide insightful analytics that drive business growth
+              Harness the power of Artificial Intelligence to transform your business and stay ahead of the competition.
+              Our AI solutions are designed to streamline operations, enhance customer engagement, and provide
+              insightful analytics that drive business growth
             </p>
           </div>
         </div>
@@ -109,7 +112,8 @@ function About() {
               <div className='os-content'>
                 <h3>Sentiment Analysis & Recommendations</h3>
                 <p>
-                  Analyze customer sentiments and receive tailored recommendations, helping you to better understand your audience and refine your offerings for maximum impact.
+                  Analyze customer sentiments and receive tailored recommendations, helping you to better understand
+                  your audience and refine your offerings for maximum impact.
                 </p>
               </div>
             </div>
@@ -123,35 +127,89 @@ function About() {
         <div className='row'>
           <div className="col-md-12">
             <div className="div-title text-center mb-5">
-              <span className="hl-color wow animate__animated animate__fadeInDown">customers </span>
-              <h3 className='wow animate__animated animate__fadeInUp'>  Our top customers  </h3>
+              <span className="hl-color wow animate__animated animate__fadeInDown">clients </span>
+              <h3 className='wow animate__animated animate__fadeInUp'> Our valued clients </h3>
             </div>
           </div>
-          <div className='col-4 col-md'>
-            <div className='customer-img wow animate__animated animate__zoomIn'>
-              <img src='/assets/images/ai/customer1.png' alt='img' className='img-fluid'/>
-            </div>
+
+          <div className='slider-div'>
+            <OwlCarousel className="owl-theme" items={4} margin={10} loop={true} autoplay={true} autoplayTimeout={3000}>
+              <div className='item'>
+                <div className='customer-img wow animate__animated animate__zoomIn'>
+                  <img src='/assets/images/clients/p1.png' alt='img' className='img-fluid'/>
+                </div>
+              </div>
+              <div className='item'>
+                <div className='customer-img wow animate__animated animate__zoomIn'>
+                  <img src='/assets/images/clients/p2.png' alt='img' className='img-fluid'/>
+                </div>
+              </div>
+              <div className='item'>
+                <div className='customer-img wow animate__animated animate__zoomIn'>
+                  <img src='/assets/images/clients/p3.png' alt='img' className='img-fluid'/>
+                </div>
+              </div>
+              <div className='item'>
+                <div className='customer-img wow animate__animated animate__zoomIn'>
+                  <img src='/assets/images/clients/p4.png' alt='img' className='img-fluid'/>
+                </div>
+              </div>
+              <div className='item'>
+                <div className='customer-img wow animate__animated animate__zoomIn'>
+                  <img src='/assets/images/clients/p5.png' alt='img' className='img-fluid'/>
+                </div>
+              </div>
+
+              <div className='item'>
+                <div className='customer-img wow animate__animated animate__zoomIn'>
+                  <img src='/assets/images/clients/p6.png' alt='img' className='img-fluid'/>
+                </div>
+              </div>
+              <div className='item'>
+                <div className='customer-img wow animate__animated animate__zoomIn'>
+                  <img src='/assets/images/clients/p7.png' alt='img' className='img-fluid'/>
+                </div>
+              </div>
+              <div className='item'>
+                <div className='customer-img wow animate__animated animate__zoomIn'>
+                  <img src='/assets/images/clients/p8.png' alt='img' className='img-fluid'/>
+                </div>
+              </div>
+              <div className='item'>
+                <div className='customer-img wow animate__animated animate__zoomIn'>
+                  <img src='/assets/images/clients/p9.png' alt='img' className='img-fluid'/>
+                </div>
+              </div>
+              <div className='item'>
+                <div className='customer-img wow animate__animated animate__zoomIn'>
+                  <img src='/assets/images/clients/p10.png' alt='img' className='img-fluid'/>
+                </div>
+              </div>
+
+              <div className='item'>
+                <div className='customer-img wow animate__animated animate__zoomIn'>
+                  <img src='/assets/images/clients/p11.png' alt='img' className='img-fluid'/>
+                </div>
+              </div>
+              <div className='item'>
+                <div className='customer-img wow animate__animated animate__zoomIn'>
+                  <img src='/assets/images/clients/p12.png' alt='img' className='img-fluid'/>
+                </div>
+              </div>
+              <div className='item'>
+                <div className='customer-img wow animate__animated animate__zoomIn'>
+                  <img src='/assets/images/clients/p13.png' alt='img' className='img-fluid'/>
+                </div>
+              </div>
+              <div className='item'>
+                <div className='customer-img wow animate__animated animate__zoomIn'>
+                  <img src='/assets/images/clients/p14.png' alt='img' className='img-fluid'/>
+                </div>
+              </div>
+
+            </OwlCarousel>
           </div>
-          <div className='col-4 col-md'>
-            <div className='customer-img wow animate__animated animate__zoomIn'>
-              <img src='/assets/images/ai/customer2.png' alt='img' className='img-fluid'/>
-            </div>
-          </div>
-          <div className='col-4 col-md'>
-            <div className='customer-img wow animate__animated animate__zoomIn'>
-              <img src='/assets/images/ai/customer3.png' alt='img' className='img-fluid'/>
-            </div>
-          </div>
-          <div className='col-4 col-md'>
-            <div className='customer-img wow animate__animated animate__zoomIn'>
-              <img src='/assets/images/ai/customer4.png' alt='img' className='img-fluid'/>
-            </div>
-          </div>
-          <div className='col-4 col-md'>
-            <div className='customer-img wow animate__animated animate__zoomIn'>
-              <img src='/assets/images/ai/customer5.png' alt='img' className='img-fluid'/>
-            </div>
-          </div>
+
         </div>
       </div>
     </div>

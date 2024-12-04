@@ -65,7 +65,7 @@ function About() {
         </div>
       </div>
     </div>
-    <div className='strategy-div'>
+    <div className='strategy-div' id='Strategy'>
       <div className='container'>
         <div className='row align-items-center'>
           <div className='col-md-6 order-1 order-sm-1 order-md-2'>

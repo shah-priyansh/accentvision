@@ -1,5 +1,6 @@
 // src/pages/About.js
 import React, {Fragment} from "react";
+import OwlCarousel from "react-owl-carousel";
 
 function About() {
     return <div>
@@ -10,7 +11,11 @@ function About() {
               <h1>Offshore Staffing </h1>
               <p>
                 Your Gateway to Global Talent with Cost Efficiency <br/>
-                In today's dynamic and interconnected global business environment, we provide you with the ideal talent solution for offshore projects. Our meticulous screening process ensures that you have access to the right expertise precisely when you need it. This allows you to focus on your core business operations while we take care of the offshore resource supply, helping you navigate the complexities of international markets with ease.
+                In today's dynamic and interconnected global business environment, we provide you with the ideal talent
+                solution for offshore projects. Our meticulous screening process ensures that you have access to the
+                right expertise precisely when you need it. This allows you to focus on your core business operations
+                while we take care of the offshore resource supply, helping you navigate the complexities of
+                international markets with ease.
               </p>
             </div>
           </div>
@@ -43,7 +48,8 @@ function About() {
                 </div>
                 <h4>Cost Efficiency</h4>
                 <p className="text-lt">
-                  Cost-effective talent solutions that can help you optimize your workforce expenses without compromising on quality.
+                  Cost-effective talent solutions that can help you optimize your workforce expenses without
+                  compromising on quality.
                 </p>
               </div>
             </div>
@@ -58,7 +64,8 @@ function About() {
                 </div>
                 <h4>Round-the-Clock Deployment</h4>
                 <p className="text-lt">
-                  Flexibility of round-the-clock deployment, ensuring that you have the necessary resources available whenever you need them, regardless of time zones.
+                  Flexibility of round-the-clock deployment, ensuring that you have the necessary resources available
+                  whenever you need them, regardless of time zones.
 
                 </p>
               </div>
@@ -74,7 +81,8 @@ function About() {
                 </div>
                 <h4>Global Reach</h4>
                 <p className="text-lt">
-                  Our extensive network and global reach allow us to source talent from around the world, enabling you to access a diverse pool of skilled professionals.
+                  Our extensive network and global reach allow us to source talent from around the world, enabling you
+                  to access a diverse pool of skilled professionals.
                 </p>
               </div>
             </div>
@@ -89,7 +97,8 @@ function About() {
                 </div>
                 <h4>Streamlined Screening Process</h4>
                 <p className="text-lt">
-                  We employ a rigorous screening process that ensures you receive candidates with the right skills and qualifications for your specific projects.
+                  We employ a rigorous screening process that ensures you receive candidates with the right skills and
+                  qualifications for your specific projects.
                 </p>
               </div>
             </div>
@@ -104,7 +113,8 @@ function About() {
                 </div>
                 <h4>Customized Solutions</h4>
                 <p className="text-lt">
-                  Tailors its services to meet your unique requirements, providing personalized talent solutions that align with your business goals.
+                  Tailors its services to meet your unique requirements, providing personalized talent solutions that
+                  align with your business goals.
                 </p>
               </div>
             </div>
@@ -120,7 +130,9 @@ function About() {
                 </div>
                 <h4>Scalability</h4>
                 <p className="text-lt">
-                  We offer scalable solutions, allowing you to easily adapt to changing project demands and market conditions. Compliance and Quality Assurance: Our commitment to compliance and quality assurance ensures that you receive top-notch talent who adhere to industry standards and regulations.
+                  We offer scalable solutions, allowing you to easily adapt to changing project demands and market
+                  conditions. Compliance and Quality Assurance: Our commitment to compliance and quality assurance
+                  ensures that you receive top-notch talent who adhere to industry standards and regulations.
                 </p>
               </div>
             </div>
@@ -135,7 +147,8 @@ function About() {
                 </div>
                 <h4>Dedicated Support</h4>
                 <p className="text-lt">
-                  Our team of experts is dedicated to providing ongoing support, ensuring a smooth and productive collaboration throughout the engagement.
+                  Our team of experts is dedicated to providing ongoing support, ensuring a smooth and productive
+                  collaboration throughout the engagement.
                 </p>
               </div>
             </div>
@@ -150,7 +163,8 @@ function About() {
           <div className="col-md-12">
             <div className="div-title text-center mb-5">
               <span className="hl-color wow animate__animated animate__fadeInDown">global talent</span>
-              <h3 className='wow animate__animated animate__fadeInUp'> Unparalleled access to global talent and unmatched staffing solutions</h3>
+              <h3 className='wow animate__animated animate__fadeInUp'> Unparalleled access to global talent and
+                unmatched staffing solutions</h3>
             </div>
           </div>
           <div className='row'>
@@ -176,31 +190,86 @@ function About() {
                 <h3 className='wow animate__animated animate__fadeInUp'> Our valued clients </h3>
               </div>
             </div>
-            <div className='col-4 col-md'>
-              <div className='customer-img wow animate__animated animate__zoomIn'>
-                <img src='/assets/images/ai/customer1.png' alt='img' className='img-fluid'/>
-              </div>
+
+            <div className='slider-div'>
+              <OwlCarousel className="owl-theme" items={4} margin={10} loop={true} autoplay={true}
+                           autoplayTimeout={3000}>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/p1.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/p2.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/p3.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/p4.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/p5.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/p6.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/p7.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/p8.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/p9.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/p10.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/p11.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/p12.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/p13.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/p14.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+
+              </OwlCarousel>
             </div>
-            <div className='col-4 col-md'>
-              <div className='customer-img wow animate__animated animate__zoomIn'>
-                <img src='/assets/images/ai/customer2.png' alt='img' className='img-fluid'/>
-              </div>
-            </div>
-            <div className='col-4 col-md'>
-              <div className='customer-img wow animate__animated animate__zoomIn'>
-                <img src='/assets/images/ai/customer3.png' alt='img' className='img-fluid'/>
-              </div>
-            </div>
-            <div className='col-4 col-md'>
-              <div className='customer-img wow animate__animated animate__zoomIn'>
-                <img src='/assets/images/ai/customer4.png' alt='img' className='img-fluid'/>
-              </div>
-            </div>
-            <div className='col-4 col-md'>
-              <div className='customer-img wow animate__animated animate__zoomIn'>
-                <img src='/assets/images/ai/customer5.png' alt='img' className='img-fluid'/>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
