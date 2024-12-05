@@ -24,14 +24,13 @@ import Career from "./pages/Career";
 import OwlCarousel from "react-owl-carousel";
 import WOW from "wowjs";
 import "animate.css";
+import Animation from "./pages/animation";
 function App() {
   useEffect(() => {
     new WOW.WOW({
       live: false,
     }).init();
   }, []);
-
-
 
   return (
     <Router>
@@ -94,6 +93,7 @@ function App() {
         <div className="flex-grow-1">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/animation" element={<Animation />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route
@@ -133,6 +133,5 @@ function App() {
     </Router>
   );
 }
-
 
 export default App;
