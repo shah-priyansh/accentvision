@@ -1,6 +1,12 @@
 // src/pages/Home.js
-import React, { Fragment } from "react";
+import React, {Fragment, useEffect} from "react";
 import OwlCarousel from "react-owl-carousel";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import "../animation.css";
+
+// Register the plugin
+gsap.registerPlugin(ScrollTrigger);
 
 const Home = () => {
 
@@ -27,8 +33,58 @@ const Home = () => {
       }
     }
   };
+
+  useEffect(() => {
+    const cards = gsap.utils.toArray(".card"); // Get all card elements
+    const lastCardIndex = cards.length - 1;
+
+    // Create ScrollTriggers for first and last cards
+    // const firstCardST = ScrollTrigger.create({
+    //   trigger: cards[0],
+    //   start: "center center",
+    // });
+
+    const lastCardST = ScrollTrigger.create({
+      trigger: cards[lastCardIndex],
+      start: "center center",
+      markers: false,
+    });
+
+    // Iterate through cards and create animations
+    cards.forEach((card, index) => {
+      const scale = index === lastCardIndex ? 1 : 0.9;
+      const opacity = index === lastCardIndex ? 1 : 0.7;
+
+      const scaleAndFade = gsap.to(card, {
+        scale: scale,
+        opacity: opacity,
+        duration: 0.5,
+      });
+
+      ScrollTrigger.create({
+        trigger: card,
+        start: "center center",
+        end: () => lastCardST.start,
+        pin: true,
+        pinSpacing: false,
+        scrub: 0.5,
+        ease: "none",
+        markers: false,
+        animation: scaleAndFade,
+        toggleActions: "restart none none reverse",
+        onEnter: () => gsap.to(card, { opacity: 1 }), // Ensure the current card is fully visible
+        onLeaveBack: () => gsap.to(card, { opacity: 1 }), // Fade out previous cards
+      });
+    });
+
+    return () => {
+      // Cleanup ScrollTriggers when the component unmounts
+      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+    };
+  }, []);
+
   return (
-      <div className="home-content">
+      <div className="home-content scroll-container">
         <div className="banner-div">
           {/*<div className="container-fluid">
           <div className="row align-items-center">
@@ -61,7 +117,7 @@ const Home = () => {
           </video>
         </div>
 
-        <div className="we-are-div bg-white text-primary-dark animation-div py-5">
+        <div className="card we-are-div bg-white text-primary-dark animation-div py-5">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
@@ -158,13 +214,13 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="services-div animation-div">
+        <div className="card services-div animation-div">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
                 <div className="div-title text-center mb-5 pb-3">
                   <span className="hl-color wow animate__animated animate__fadeInDown">Services</span>
-                  <h3 className='wow animate__animated animate__fadeInUp'>Solutions for your business needs</h3>
+                  <h3 className='wow animate__animated animate__fadeInUp text-white'>Solutions for your business needs</h3>
                 </div>
               </div>
             </div>
@@ -178,7 +234,7 @@ const Home = () => {
                           d="M207.54-287.54q-56.23-58.08-84.19-128T95.39-560q0-74.54 27.96-144.46t84.19-128l37.23 37.23Q196-746.08 172-684.54 148-623 148-560q0 63 24 124.54 24 61.54 72.77 110.69l-37.23 37.23ZM302-382q-36.69-37.46-55.65-83.77-18.96-46.31-18.96-94.23t18.96-94.23Q265.31-700.54 302-738l37.23 37.23q-29.61 27.77-44.42 64.96Q280-598.62 280-560q0 36.77 14.62 73.77 14.61 37 44.61 67L302-382Zm-.46 268.92 125.77-377.31q-16.77-12.07-26.27-30.49-9.5-18.43-9.5-39.12 0-37 25.73-62.73Q443-648.46 480-648.46t62.73 25.73Q568.46-597 568.46-560q0 20.69-9.11 38.73-9.12 18.04-26.66 30.88l125.77 377.31h-60.77l-26-80H388.92l-26.23 80h-61.15Zm107.23-140h142.46L480-466.93l-71.23 213.85ZM658-382l-37.23-37.23q29.61-27.77 44.42-64.96Q680-521.38 680-560q0-35.62-14.81-73t-44.42-67.77L658-738q36.69 37.46 54.73 84.15 18.04 46.7 19.88 94.23 0 47.93-18.76 94.04Q695.08-419.46 658-382Zm94.46 94.46-37.23-37.23Q764-373.92 788-435.46 812-497 812-560q0-63-24-124.54-24-61.54-72.77-110.69l37.23-37.23q55.85 58.08 84 128T864.61-560q0 74.54-26.84 144.46-26.85 69.92-85.31 128Z"/>
                     </svg>
                   </div>
-                  <h4>Offshore Staffing</h4>
+                  <h4 className='text-white'>Offshore Staffing</h4>
                   <p className="text-lt">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
@@ -194,7 +250,7 @@ const Home = () => {
                           d="M100-100v-447.54l240-102.07v79.23l200-80V-540h320v440H100Zm60-60h640v-320H480v-82l-200 80v-78l-120 53v347Zm284.62-89.23h70.76v-141.54h-70.76v141.54Zm-160 0h70.76v-141.54h-70.76v141.54Zm320 0h70.76v-141.54h-70.76v141.54ZM860-540H697.69l40-304.61h84.62L860-540ZM160-160h640-640Z"/>
                     </svg>
                   </div>
-                  <h4>Onsite Staffing</h4>
+                  <h4 className='text-white'>Onsite Staffing</h4>
                   <p className="text-lt">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
@@ -217,7 +273,7 @@ const Home = () => {
                       />
                     </svg>
                   </div>
-                  <h4>Software & Mobile Apps</h4>
+                  <h4 className='text-white'>Software & Mobile Apps</h4>
                   <p className="text-lt">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
@@ -233,7 +289,7 @@ const Home = () => {
                           d="M684.62-604.62h70.76v-70.76h-70.76v70.76Zm0 160h70.76v-70.76h-70.76v70.76Zm0 160h70.76v-70.76h-70.76v70.76ZM660-140v-60h180v-560H467.69v71.77l-60-43.38V-820H900v680H660Zm-600 0v-370l260-185.38L580-510v370H365.39v-190h-90.78v190H60Zm60-60h94.62v-190h210.76v190H520v-280L320-621.23 120-480v280Zm540-350ZM425.38-200v-190H214.62v190-190h210.76v190Z"/>
                     </svg>
                   </div>
-                  <h4>Infrastructure Services</h4>
+                  <h4 className='text-white'>Infrastructure Services</h4>
                   <p className="text-lt">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
@@ -250,7 +306,7 @@ const Home = () => {
                           d="M438-351.85 650.15-564l-42.77-42.77L438-437.38l-84.77-84.77-42.77 42.77L438-351.85Zm42 251.08q-129.77-35.39-214.88-152.77Q180-370.92 180-516v-230.15l300-112.31 300 112.31V-516q0 145.08-85.12 262.46Q609.77-136.16 480-100.77Zm0-63.23q104-33 172-132t68-220v-189l-240-89.62L240-705v189q0 121 68 220t172 132Zm0-315.62Z"/>
                     </svg>
                   </div>
-                  <h4>Cybersecurity</h4>
+                  <h4 className='text-white'>Cybersecurity</h4>
                   <p className="text-lt">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
@@ -268,7 +324,7 @@ const Home = () => {
                           d="M180-140v-180.85q0-29.84 21.24-51.03 21.24-21.2 51.07-21.2h455.38q29.83 0 51.07 21.24Q780-350.6 780-320.77V-140H180Zm185.77-308.46q-77.09 0-131.43-54.34T180-634.23q0-77.09 54.34-131.43T365.77-820h228.46q77.09 0 131.43 54.34T780-634.23q0 77.09-54.34 131.43t-131.43 54.34H365.77ZM240-200h480v-120.77q0-5.38-3.46-8.85-3.46-3.46-8.85-3.46H252.31q-5.39 0-8.85 3.46-3.46 3.47-3.46 8.85V-200Zm125.77-308.46h228.46q52.69 0 89.23-36.54Q720-581.54 720-634.23q0-52.69-36.54-89.23Q646.92-760 594.23-760H365.77q-52.69 0-89.23 36.54Q240-686.92 240-634.23q0 52.69 36.54 89.23 36.54 36.54 89.23 36.54Zm-.01-91.16q14.7 0 24.66-9.94 9.96-9.95 9.96-24.66 0-14.7-9.94-24.66-9.95-9.97-24.66-9.97-14.7 0-24.66 9.95-9.97 9.95-9.97 24.66 0 14.7 9.95 24.66t24.66 9.96Zm228.46 0q14.7 0 24.66-9.94 9.97-9.95 9.97-24.66 0-14.7-9.95-24.66-9.95-9.97-24.66-9.97-14.7 0-24.66 9.95t-9.96 24.66q0 14.7 9.94 24.66 9.95 9.96 24.66 9.96ZM480-200Zm0-434.23Z"/>
                     </svg>
                   </div>
-                  <h4>Artificial Intelligence </h4>
+                  <h4 className='text-white'>Artificial Intelligence </h4>
                   <p className="text-lt">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
@@ -292,7 +348,7 @@ const Home = () => {
                       />
                     </svg>
                   </div>
-                  <h4>Data Analytics</h4>
+                  <h4 className='text-white'>Data Analytics</h4>
                   <p className="text-lt">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
@@ -315,7 +371,7 @@ const Home = () => {
                       />
                     </svg>
                   </div>
-                  <h4>Cloud Services</h4>
+                  <h4 className='text-white'>Cloud Services</h4>
                   <p className="text-lt">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
@@ -326,7 +382,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="testimonial-div bg-white text-primary-dark animation-div">
+        <div className="card testimonial-div bg-white text-primary-dark animation-div">
           <div className="container">
             <div className="row">
               <div className="col-md-12"></div>
