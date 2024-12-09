@@ -41,6 +41,36 @@ ul{
   top: 0;
   z-index: 9999;
 
+  .navbar-toggler {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    background-color: var(--highlight-color);
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    svg {
+      path {
+        fill: #ffffff;
+      }
+    }
+    .spn-menu {
+      display: none;
+    }
+    .spn-close {
+      display: block;
+    }
+  }
+  .collapsed {
+    .spn-close {
+      display: none;
+    }
+    .spn-menu {
+      display: block;
+    }
+  }
   .navbar-nav {
     .nav-item {
     position: inherit;
@@ -673,9 +703,13 @@ background-color: var(--dark-primary-color);
 .customer-div {
   padding: 70px 0;
   .customer-img {
-    padding: 5px;
     /*border: 2px solid var(--highlight-color);*/
     /*border-radius: 50%;*/
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    margin-right: 5px;
   }
 }
 .erp-solutions-div {
@@ -701,7 +735,7 @@ background-color: var(--dark-primary-color);
       span {
         width: 15px;
         height: 15px;
-        background: #ffffff;
+        background: #f1f1f1;
       }
     }
   }
@@ -741,6 +775,25 @@ background-color: var(--dark-primary-color);
     }
   }
 }
+.banner-div {
+  height: 90vh;
+  overflow: hidden;
+  video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.customer-div-light {
+  background-color: #ffffff!important;
+  .div-title {
+    h3 {
+      color: var(--dark-primary-color);
+    }
+  }
+}
+
 @media screen and (max-width: 1099px) {
   .main-header {
      .navbar-nav {
@@ -783,6 +836,9 @@ background-color: var(--dark-primary-color);
         }
       }
     }
+  }
+  .navbar-toggler {
+    display: flex;
   }
 }
 .contact-location {
@@ -930,14 +986,12 @@ background-color: var(--dark-primary-color);
   }
 
   .banner-div {
+    padding: 0;
     .banner-content {
       h1 {
         font-size: 50px;
       }
     }
-  }
-  .banner-div {
-    padding: 30px 15px;
   }
   .we-are-div {
      .w-embed {

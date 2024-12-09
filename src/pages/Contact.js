@@ -28,7 +28,7 @@ function Contact() {
               <h3 className='wow animate__animated animate__fadeInUp'> Smarter Way Of Building Career In IT </h3>
             </div>
           </div>
-          <div className='col-md-3 mb-4 wow animate__animated animate__fadeInUp'>
+          <div className='col-md-4 mb-4 wow animate__animated animate__fadeInUp'>
             <div className='contact-card'>
               <div className='location-img'>
                 <img src='/assets/images/contact/united-states.png' alt='img' className='img-fluid' width='100'/>
@@ -65,7 +65,7 @@ function Contact() {
               </div>
             </div>
           </div>
-          <div className='col-md-3 mb-4 wow animate__animated animate__fadeInUp'>
+          <div className='col-md-4 mb-4 wow animate__animated animate__fadeInUp'>
             <div className='contact-card'>
               <div className='location-img'>
                 <img src='/assets/images/contact/united-kingdom.png' alt='img' className='img-fluid' width='100'/>
@@ -102,7 +102,7 @@ function Contact() {
               </div>
             </div>
           </div>
-          <div className='col-md-3 mb-4 wow animate__animated animate__fadeInUp'>
+          <div className='col-md-4 mb-4 wow animate__animated animate__fadeInUp'>
             <div className='contact-card'>
               <div className='location-img'>
                 <img src='/assets/images/contact/india.png' alt='img' className='img-fluid' width='100'/>
@@ -140,7 +140,7 @@ function Contact() {
               </div>
             </div>
           </div>
-          <div className='col-md-3 mb-4 wow animate__animated animate__fadeInUp'>
+          {/*<div className='col-md-3 mb-4 wow animate__animated animate__fadeInUp'>
             <div className='contact-card'>
               <div className='location-img'>
                 <img src='/assets/images/contact/united-states.png' alt='img' className='img-fluid' width='100'/>
@@ -175,7 +175,7 @@ function Contact() {
                 </p>
               </div>
             </div>
-          </div>
+          </div>*/}
         </div>
       </div>
     </div>

@@ -224,81 +224,175 @@ function About() {
             </div>
 
             <div className='slider-div'>
-              <OwlCarousel className="owl-theme" items={4} margin={10} loop={true} autoplay={true}
-                           autoplayTimeout={3000}>
+              <OwlCarousel className="owl-theme" items={5} margin={15} loop={true} autoplay={true}
+                           autoplayTimeout={3000}
+                           responsive={{0: {items: 2}, 600: {items: 3}, 1000: {items: 5}}}>
                 <div className='item'>
                   <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p1.png' alt='img' className='img-fluid'/>
+                    <img src='/assets/images/clients/client1.jpg' alt='img' className='img-fluid'/>
                   </div>
                 </div>
                 <div className='item'>
                   <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p2.png' alt='img' className='img-fluid'/>
+                    <img src='/assets/images/clients/client2.jpeg' alt='img' className='img-fluid'/>
                   </div>
                 </div>
                 <div className='item'>
                   <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p3.png' alt='img' className='img-fluid'/>
+                    <img src='/assets/images/clients/client3.png' alt='img' className='img-fluid'/>
                   </div>
                 </div>
                 <div className='item'>
                   <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p4.png' alt='img' className='img-fluid'/>
+                    <img src='/assets/images/clients/client4.jpeg' alt='img' className='img-fluid'/>
                   </div>
                 </div>
                 <div className='item'>
                   <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p5.png' alt='img' className='img-fluid'/>
-                  </div>
-                </div>
-
-                <div className='item'>
-                  <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p6.png' alt='img' className='img-fluid'/>
-                  </div>
-                </div>
-                <div className='item'>
-                  <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p7.png' alt='img' className='img-fluid'/>
-                  </div>
-                </div>
-                <div className='item'>
-                  <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p8.png' alt='img' className='img-fluid'/>
-                  </div>
-                </div>
-                <div className='item'>
-                  <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p9.png' alt='img' className='img-fluid'/>
-                  </div>
-                </div>
-                <div className='item'>
-                  <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p10.png' alt='img' className='img-fluid'/>
+                    <img src='/assets/images/clients/client5.jpg' alt='img' className='img-fluid'/>
                   </div>
                 </div>
 
                 <div className='item'>
                   <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p11.png' alt='img' className='img-fluid'/>
+                    <img src='/assets/images/clients/client6.png' alt='img' className='img-fluid'/>
                   </div>
                 </div>
                 <div className='item'>
                   <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p12.png' alt='img' className='img-fluid'/>
+                    <img src='/assets/images/clients/client7.jpg' alt='img' className='img-fluid'/>
                   </div>
                 </div>
                 <div className='item'>
                   <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p13.png' alt='img' className='img-fluid'/>
+                    <img src='/assets/images/clients/client9.jpg' alt='img' className='img-fluid'/>
                   </div>
                 </div>
                 <div className='item'>
                   <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p14.png' alt='img' className='img-fluid'/>
+                    <img src='/assets/images/clients/client10.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client11.png' alt='img' className='img-fluid'/>
                   </div>
                 </div>
 
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client12.jpg' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client13.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client14.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client15.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client16.webp' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client17.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client18.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client19.jpg' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client20.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client21.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client22.webp' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client23.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client24.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client25.jpeg' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client26.jpeg' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client27.jpg' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client28.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client29.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client30.jpeg' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client31.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client32.webp' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client33.jpg' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
               </OwlCarousel>
             </div>
 

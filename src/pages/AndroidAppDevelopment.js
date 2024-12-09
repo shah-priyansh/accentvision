@@ -26,6 +26,69 @@ function About() {
       </div>
 
 
+      <div className='quality-div bg-white text-primary-dark'>
+        <div className='container'>
+          <div className='row align-items-center'>
+            <div className='col-md-6 order-1 order-sm-1 order-md-1'>
+              <div className='quality-img wow animate__animated animate__fadeInLeft'>
+                <img src='/assets/images/app/EnterpriseMobileApp.png' alt='img' className='img-fluid' width='100%'/>
+              </div>
+            </div>
+            <div className='col-md-6 order-1 order-sm-1 order-md-2'>
+              <div className='content-div ps-md-4 wow animate__animated animate__fadeInRight'>
+                <h3>
+                  Full life cycle Management for Android Apps
+                </h3>
+                <ul className='qp-ul'>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                         fill="#000000">
+                      <path d="M382-253.85 168.62-467.23 211.38-510 382-339.38 748.62-706l42.76 42.77L382-253.85Z"/>
+                    </svg>
+                    Strategic Consulting
+                  </li>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                         fill="#000000">
+                      <path d="M382-253.85 168.62-467.23 211.38-510 382-339.38 748.62-706l42.76 42.77L382-253.85Z"/>
+                    </svg>
+                    Prototyping
+                  </li>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                         fill="#000000">
+                      <path d="M382-253.85 168.62-467.23 211.38-510 382-339.38 748.62-706l42.76 42.77L382-253.85Z"/>
+                    </svg>
+                    Native and cross-platform solutions
+                  </li>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                         fill="#000000">
+                      <path d="M382-253.85 168.62-467.23 211.38-510 382-339.38 748.62-706l42.76 42.77L382-253.85Z"/>
+                    </svg>
+                    Web and E-Commerce integration
+                  </li>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                         fill="#000000">
+                      <path d="M382-253.85 168.62-467.23 211.38-510 382-339.38 748.62-706l42.76 42.77L382-253.85Z"/>
+                    </svg>
+                    UI/UX design
+                  </li>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                         fill="#000000">
+                      <path d="M382-253.85 168.62-467.23 211.38-510 382-339.38 748.62-706l42.76 42.77L382-253.85Z"/>
+                    </svg>
+                    Maintenance and support
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
       <div className='services-div key-feature'>
         <div className='container'>
           <div className="col-md-12">
@@ -118,73 +181,7 @@ function About() {
           </div>
         </div>
       </div>
-
-
-      <div className='quality-div bg-white text-primary-dark'>
-        <div className='container'>
-          <div className='row align-items-center'>
-            <div className='col-md-6 order-1 order-sm-1 order-md-1'>
-              <div className='quality-img wow animate__animated animate__fadeInLeft'>
-                <img src='/assets/images/app/EnterpriseMobileApp.png' alt='img' className='img-fluid' width='100%'/>
-              </div>
-            </div>
-            <div className='col-md-6 order-1 order-sm-1 order-md-2'>
-              <div className='content-div ps-md-4 wow animate__animated animate__fadeInRight'>
-                <h3>
-                  Full life cycle Management for Android Apps
-                </h3>
-                <ul className='qp-ul'>
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-                         fill="#000000">
-                      <path d="M382-253.85 168.62-467.23 211.38-510 382-339.38 748.62-706l42.76 42.77L382-253.85Z"/>
-                    </svg>
-                    Strategic Consulting
-                  </li>
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-                         fill="#000000">
-                      <path d="M382-253.85 168.62-467.23 211.38-510 382-339.38 748.62-706l42.76 42.77L382-253.85Z"/>
-                    </svg>
-                    Prototyping
-                  </li>
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-                         fill="#000000">
-                      <path d="M382-253.85 168.62-467.23 211.38-510 382-339.38 748.62-706l42.76 42.77L382-253.85Z"/>
-                    </svg>
-                    Native and cross-platform solutions
-                  </li>
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-                         fill="#000000">
-                      <path d="M382-253.85 168.62-467.23 211.38-510 382-339.38 748.62-706l42.76 42.77L382-253.85Z"/>
-                    </svg>
-                    Web and E-Commerce integration
-                  </li>
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-                         fill="#000000">
-                      <path d="M382-253.85 168.62-467.23 211.38-510 382-339.38 748.62-706l42.76 42.77L382-253.85Z"/>
-                    </svg>
-                    UI/UX design
-                  </li>
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
-                         fill="#000000">
-                      <path d="M382-253.85 168.62-467.23 211.38-510 382-339.38 748.62-706l42.76 42.77L382-253.85Z"/>
-                    </svg>
-                    Maintenance and support
-                  </li>
-                </ul>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className='customer-div'>
+      <div className='customer-div customer-div-light'>
         <div className='container'>
           <div className='row'>
             <div className="col-md-12">
@@ -195,81 +192,175 @@ function About() {
             </div>
 
             <div className='slider-div'>
-              <OwlCarousel className="owl-theme" items={4} margin={10} loop={true} autoplay={true}
-                           autoplayTimeout={3000}>
+              <OwlCarousel className="owl-theme" items={5} margin={15} loop={true} autoplay={true}
+                           autoplayTimeout={3000}
+                           responsive={{0: {items: 2}, 600: {items: 3}, 1000: {items: 5}}}>
                 <div className='item'>
                   <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p1.png' alt='img' className='img-fluid'/>
+                    <img src='/assets/images/clients/client1.jpg' alt='img' className='img-fluid'/>
                   </div>
                 </div>
                 <div className='item'>
                   <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p2.png' alt='img' className='img-fluid'/>
+                    <img src='/assets/images/clients/client2.jpeg' alt='img' className='img-fluid'/>
                   </div>
                 </div>
                 <div className='item'>
                   <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p3.png' alt='img' className='img-fluid'/>
+                    <img src='/assets/images/clients/client3.png' alt='img' className='img-fluid'/>
                   </div>
                 </div>
                 <div className='item'>
                   <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p4.png' alt='img' className='img-fluid'/>
+                    <img src='/assets/images/clients/client4.jpeg' alt='img' className='img-fluid'/>
                   </div>
                 </div>
                 <div className='item'>
                   <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p5.png' alt='img' className='img-fluid'/>
-                  </div>
-                </div>
-
-                <div className='item'>
-                  <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p6.png' alt='img' className='img-fluid'/>
-                  </div>
-                </div>
-                <div className='item'>
-                  <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p7.png' alt='img' className='img-fluid'/>
-                  </div>
-                </div>
-                <div className='item'>
-                  <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p8.png' alt='img' className='img-fluid'/>
-                  </div>
-                </div>
-                <div className='item'>
-                  <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p9.png' alt='img' className='img-fluid'/>
-                  </div>
-                </div>
-                <div className='item'>
-                  <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p10.png' alt='img' className='img-fluid'/>
+                    <img src='/assets/images/clients/client5.jpg' alt='img' className='img-fluid'/>
                   </div>
                 </div>
 
                 <div className='item'>
                   <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p11.png' alt='img' className='img-fluid'/>
+                    <img src='/assets/images/clients/client6.png' alt='img' className='img-fluid'/>
                   </div>
                 </div>
                 <div className='item'>
                   <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p12.png' alt='img' className='img-fluid'/>
+                    <img src='/assets/images/clients/client7.jpg' alt='img' className='img-fluid'/>
                   </div>
                 </div>
                 <div className='item'>
                   <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p13.png' alt='img' className='img-fluid'/>
+                    <img src='/assets/images/clients/client9.jpg' alt='img' className='img-fluid'/>
                   </div>
                 </div>
                 <div className='item'>
                   <div className='customer-img wow animate__animated animate__zoomIn'>
-                    <img src='/assets/images/clients/p14.png' alt='img' className='img-fluid'/>
+                    <img src='/assets/images/clients/client10.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client11.png' alt='img' className='img-fluid'/>
                   </div>
                 </div>
 
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client12.jpg' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client13.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client14.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client15.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client16.webp' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client17.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client18.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client19.jpg' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client20.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client21.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client22.webp' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client23.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client24.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client25.jpeg' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client26.jpeg' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client27.jpg' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client28.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client29.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client30.jpeg' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client31.png' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client32.webp' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
+                <div className='item'>
+                  <div className='customer-img wow animate__animated animate__zoomIn'>
+                    <img src='/assets/images/clients/client33.jpg' alt='img' className='img-fluid'/>
+                  </div>
+                </div>
               </OwlCarousel>
             </div>
 
