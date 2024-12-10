@@ -150,7 +150,7 @@ ul{
       &:hover {
         .nav-link + .dropdown-menu {
           display: block;
-          top: 100%;
+          top: 96%;
         }
       }
     }
@@ -707,7 +707,7 @@ background-color: var(--dark-primary-color);
     /*border-radius: 50%;*/
     border: 1px solid #ddd;
     padding: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
     margin-right: 5px;
   }

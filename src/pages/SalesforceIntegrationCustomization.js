@@ -123,7 +123,7 @@ function About() {
         </div>
       </div>
 
-      <div className='customer-div'>
+      {/*<div className='customer-div'>
         <div className='container'>
           <div className='row'>
             <div className="col-md-12">
@@ -308,7 +308,7 @@ function About() {
 
           </div>
         </div>
-      </div>
+      </div>*/}
 
     </div>;
 }

@@ -29,11 +29,11 @@ function Header() {
                               </a>
                               <div className="mega-dropdown dropdown-menu" aria-labelledby="navbarDropdown">
                                   <div className='row'>
-                                      <div className='col-md-12'>
-                                          <div className='menu-box-title'>
-                                              <h5>Insight's Menu</h5>
-                                          </div>
-                                      </div>
+                                      {/*<div className='col-md-12'>*/}
+                                      {/*    <div className='menu-box-title'>*/}
+                                      {/*        <h5>Insight's Menu</h5>*/}
+                                      {/*    </div>*/}
+                                      {/*</div>*/}
                                       <div className='col-md-4'>
                                           <div className='menu-box'>
                                               <a href='/about'>
@@ -88,11 +88,11 @@ function Header() {
                               </a>
                               <div className="mega-dropdown dropdown-menu" aria-labelledby="navbarDropdown">
                                   <div className='row'>
-                                      <div className='col-md-12'>
-                                          <div className='menu-box-title'>
-                                              <h5>Staffing's Menu</h5>
-                                          </div>
-                                      </div>
+                                      {/*<div className='col-md-12'>*/}
+                                      {/*    <div className='menu-box-title'>*/}
+                                      {/*        <h5>Staffing's Menu</h5>*/}
+                                      {/*    </div>*/}
+                                      {/*</div>*/}
 
                                       <div className='col-md-4'>
                                           <div className='menu-box'>
@@ -132,11 +132,11 @@ function Header() {
                               </a>
                               <div className="mega-dropdown dropdown-menu" aria-labelledby="navbarDropdown">
                                   <div className='row'>
-                                      <div className='col-md-12'>
-                                          <div className='menu-box-title'>
-                                              <h5>Services's Menu</h5>
-                                          </div>
-                                      </div>
+                                      {/*<div className='col-md-12'>*/}
+                                      {/*    <div className='menu-box-title'>*/}
+                                      {/*        <h5>Services's Menu</h5>*/}
+                                      {/*    </div>*/}
+                                      {/*</div>*/}
                                       <div className='col-md-4'>
 
                                           <div className='menu-box'>
@@ -313,11 +313,11 @@ function Header() {
                               </a>
                               <div className="mega-dropdown dropdown-menu" aria-labelledby="navbarDropdown">
                                   <div className='row'>
-                                      <div className='col-md-12'>
-                                          <div className='menu-box-title'>
-                                              <h5>Industries's Menu</h5>
-                                          </div>
-                                      </div>
+                                      {/*<div className='col-md-12'>*/}
+                                      {/*    <div className='menu-box-title'>*/}
+                                      {/*        <h5>Industries's Menu</h5>*/}
+                                      {/*    </div>*/}
+                                      {/*</div>*/}
                                       <div className='col-md-4'>
                                           <div className='menu-box'>
                                               <a href='/onshore-staffing'>
@@ -370,11 +370,11 @@ function Header() {
                               </a>
                               <div className="mega-dropdown dropdown-menu" aria-labelledby="navbarDropdown">
                                   <div className='row'>
-                                      <div className='col-md-12'>
-                                          <div className='menu-box-title'>
-                                              <h5>Products's Menu</h5>
-                                          </div>
-                                      </div>
+                                      {/*<div className='col-md-12'>*/}
+                                      {/*    <div className='menu-box-title'>*/}
+                                      {/*        <h5>Products's Menu</h5>*/}
+                                      {/*    </div>*/}
+                                      {/*</div>*/}
                                       <div className='col-md-4'>
                                           <div className='menu-box'>
                                               <a href='#'>
@@ -413,11 +413,11 @@ function Header() {
                               </a>
                               <div className="mega-dropdown dropdown-menu" aria-labelledby="navbarDropdown">
                                   <div className='row'>
-                                      <div className='col-md-12'>
-                                          <div className='menu-box-title'>
-                                              <h5>Marketplace's Menu</h5>
-                                          </div>
-                                      </div>
+                                      {/*<div className='col-md-12'>*/}
+                                      {/*    <div className='menu-box-title'>*/}
+                                      {/*        <h5>Marketplace's Menu</h5>*/}
+                                      {/*    </div>*/}
+                                      {/*</div>*/}
                                       <div className='col-md-4'>
                                           <div className='menu-box'>
                                               <a href='#'>
