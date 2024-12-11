@@ -59,10 +59,6 @@ const Home = () => {
         scrub: 0.5,
         ease: "none",
         markers: false,
-        animation: scaleAndFade,
-        toggleActions: "restart none none reverse",
-        onEnter: () => gsap.to(card, { opacity: 1 }), // Ensure the current card is fully visible
-        onLeaveBack: () => gsap.to(card, { opacity: 1 }), // Fade out previous cards
       });
     });
     return () => {
