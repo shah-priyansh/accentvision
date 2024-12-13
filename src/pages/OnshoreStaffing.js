@@ -152,7 +152,7 @@ function About() {
                 </p>
               </div>
             </div>
-            <div className="col-md-4">
+            {/*<div className="col-md-4">
               <div className="services-card wow animate__animated animate__fadeInUp">
                 <div className="sc-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
@@ -181,7 +181,7 @@ function About() {
                   Corp to Corp, W2, and 1099
                 </p>
               </div>
-            </div>
+            </div>*/}
           </div>
         </div>
       </div>
