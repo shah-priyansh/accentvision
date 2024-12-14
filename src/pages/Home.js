@@ -1,5 +1,5 @@
 // src/pages/Home.js
-import React, { Fragment, useEffect } from "react";
+import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -33,95 +33,113 @@ const Home = () => {
     },
   };
 
-  useEffect(() => {
-    const cards = gsap.utils.toArray(".card"); // Get all card elements
-    const lastCardIndex = cards.length - 1;
-    const lastCardST = ScrollTrigger.create({
-      trigger: cards[lastCardIndex],
-      start: "center center",
-      markers: false,
-    });
-    // Iterate through cards and create animations
-    cards.forEach((card, index) => {
-      const scale = index === lastCardIndex ? 1 : 0.9;
-      const opacity = index === lastCardIndex ? 1 : 0.7;
-      const scaleAndFade = gsap.to(card, {
-        scale: scale,
-        opacity: opacity,
-        duration: 0.5,
-      });
-      ScrollTrigger.create({
-        trigger: card,
-        start: "bottom bottom",
-        end: () => lastCardST.start,
-        pin: true,
-        pinSpacing: false,
-        scrub: 0.5,
-        ease: "none",
-        markers: false,
-      });
-    });
-    return () => {
-      // Cleanup ScrollTriggers when the component unmounts
-      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-    };
+  // useEffect(() => {
+  //   const cards = gsap.utils.toArray(".card"); // Get all card elements
+  //   const lastCardIndex = cards.length - 1;
+  //   const lastCardST = ScrollTrigger.create({
+  //     trigger: cards[lastCardIndex],
+  //     start: "center center",
+  //     markers: false,
+  //   });
+  //   // Iterate through cards and create animations
+  //   cards.forEach((card, index) => {
+  //     const scale = index === lastCardIndex ? 1 : 0.9;
+  //     // const opacity = index === lastCardIndex ? 1 : 0.7;
+  //     const opacity = 1;
+  //     const scaleAndFade = gsap.to(card, {
+  //       scale: scale,
+  //       opacity: opacity,
+  //       duration: 0.5,
+  //     });
+  //     ScrollTrigger.create({
+  //       trigger: card,
+  //       start: "bottom bottom",
+  //       end: () => lastCardST.start,
+  //       pin: true,
+  //       pinSpacing: false,
+  //       scrub: 0.5,
+  //       ease: "none",
+  //       markers: false,
+  //       animation: scaleAndFade,
+  //       toggleActions: "restart none none reverse",
+  //       onEnter: () => gsap.to(card, { opacity: 1 }), // Ensure the current card is fully visible
+  //       onLeaveBack: () => gsap.to(card, { opacity: 1 }), // Fade out previous cards
+  //     });
+  //   });
+  //   return () => {
+  //     // Cleanup ScrollTriggers when the component unmounts
+  //     ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+  //   };
+  //   // **************************************
+  // }, []);
 
-    // function initScrollTriggerAnimations() {
-    //   const cards = gsap.utils.toArray(".card");
-    //   const lastCardIndex = cards.length - 1;
+  // useEffect(() => {
+  //   // Function to initialize GSAP animations
+  //   const initAnimations = () => {
+  //     const cards = gsap.utils.toArray(".card"); // Get all card elements
+  //     const lastCardIndex = cards.length - 1;
 
-    //   const lastCardST = ScrollTrigger.create({
-    //     trigger: cards[lastCardIndex],
-    //     start: "center center",
-    //     markers: false,
-    //   });
+  //     const lastCardST = ScrollTrigger.create({
+  //       trigger: cards[lastCardIndex],
+  //       start: "center center",
+  //       markers: false,
+  //     });
 
-    //   cards.forEach((card, index) => {
-    //     const scale = index === lastCardIndex ? 1 : 0.9;
-    //     const opacity = index === lastCardIndex ? 1 : 0.7;
+  //     // Iterate through cards and create animations
+  //     cards.forEach((card, index) => {
+  //       const scale = index === lastCardIndex ? 1 : 0.9;
+  //       const opacity = 1;
 
-    //     const scaleAndFade = gsap.to(card, {
-    //       scale: scale,
-    //       opacity: opacity,
-    //       duration: 0.5,
-    //     });
+  //       const scaleAndFade = gsap.to(card, {
+  //         scale: scale,
+  //         opacity: opacity,
+  //         duration: 0.5,
+  //       });
 
-    //     ScrollTrigger.create({
-    //       trigger: card,
-    //       start: "center center",
-    //       end: () => lastCardST.start,
-    //       pin: true,
-    //       pinSpacing: false,
-    //       scrub: 0.5,
-    //       ease: "none",
-    //       markers: false,
-    //       animation: scaleAndFade,
-    //       toggleActions: "restart none none reverse",
-    //       onEnter: () => gsap.to(card, { opacity: 1 }),
-    //       onLeaveBack: () => gsap.to(card, { opacity: 1 }),
-    //     });
-    //   });
-    // }
+  //       ScrollTrigger.create({
+  //         trigger: card,
+  //         start: "bottom bottom",
+  //         end: () => lastCardST.start,
+  //         pin: true,
+  //         pinSpacing: false,
+  //         scrub: 0.5,
+  //         ease: "none",
+  //         markers: false,
+  //         animation: scaleAndFade,
+  //         toggleActions: "restart none none reverse",
+  //         onEnter: () => gsap.to(card, { opacity: 1 }), // Ensure the current card is fully visible
+  //         onLeaveBack: () => gsap.to(card, { opacity: 1 }), // Fade out previous cards
+  //       });
+  //     });
+  //   };
 
-    // // Check screen width before initializing ScrollTrigger
-    // function checkScreenAndInitScrollTrigger() {
-    //   if (window.innerWidth > 1220) {
-    //     initScrollTriggerAnimations();
-    //   }
-    // }
+  //   // Function to destroy GSAP animations
+  //   const destroyAnimations = () => {
+  //     ScrollTrigger.getAll().forEach((trigger) => trigger.kill()); // Remove all ScrollTriggers
+  //     gsap.set(".card", { clearProps: "all" }); // Clear inline styles applied by GSAP
+  //   };
 
-    // // Initial check when page loads
-    // checkScreenAndInitScrollTrigger();
+  //   // Check screen size and initialize animations if > 1200px
+  //   const handleResize = () => {
+  //     if (window.innerWidth > 1200) {
+  //       initAnimations();
+  //     } else {
+  //       destroyAnimations();
+  //     }
+  //   };
 
-    // // Add resize event listener to recheck and reinitialize or kill ScrollTriggers
-    // window.addEventListener("resize", () => {
-    //   // Destroy existing ScrollTriggers
-    //   ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+  //   // Initial check on mount
+  //   handleResize();
 
-    //   // Reinitialize if screen width is appropriate
-    //   checkScreenAndInitScrollTrigger();
-    // });
-  }, []);
+  //   // Add resize event listener
+  //   window.addEventListener("resize", handleResize);
+
+  //   // Cleanup on unmount
+  //   return () => {
+  //     destroyAnimations(); // Cleanup animations
+  //     window.removeEventListener("resize", handleResize); // Remove event listener
+  //   };
+  // }, []);
 
   return (
     <div className="home-content scroll-container">
