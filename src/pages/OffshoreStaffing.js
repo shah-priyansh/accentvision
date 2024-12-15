@@ -28,7 +28,7 @@ function About() {
       </div>
 
 
-      <div className='quality-div bg-white text-primary-dark'>
+      <div className='quality-div bg-white text-primary-dark animation-div'>
         <div className='container'>
           <div className="col-md-12">
             <div className="div-title text-center mb-5">
@@ -51,7 +51,7 @@ function About() {
         </div>
       </div>
 
-      <div className='services-div key-feature'>
+      <div className='services-div key-feature animation-div'>
         <div className='container'>
           <div className="col-md-12">
             <div className="div-title text-center mb-5">

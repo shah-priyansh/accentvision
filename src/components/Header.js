@@ -320,7 +320,7 @@ function Header() {
                                       {/*</div>*/}
                                       <div className='col-md-4'>
                                           <div className='menu-box'>
-                                              <a href='/onshore-staffing'>
+                                              <a href='#'>
                                                   Telecom
                                                   <span>
                                                       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -330,7 +330,7 @@ function Header() {
                                       </div>
                                       <div className='col-md-4'>
                                           <div className='menu-box'>
-                                              <a href='/offshore-staffing'>
+                                              <a href='#'>
                                                   Finance
                                                   <span>
                                                       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -340,7 +340,7 @@ function Header() {
                                       </div>
                                       <div className='col-md-4'>
                                           <div className='menu-box'>
-                                              <a href='/automation'>
+                                              <a href='#'>
                                                   Retail
                                                   <span>
                                                           Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -350,7 +350,7 @@ function Header() {
                                       </div>
                                       <div className='col-md-4'>
                                           <div className='menu-box'>
-                                              <a href='/automation'>
+                                              <a href='#'>
                                                   ECommerce
                                                   <span>
                                                      Our top-rated business management solution integrates..

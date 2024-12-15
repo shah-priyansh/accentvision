@@ -22,7 +22,7 @@ function About() {
     </div>
 
 
-    <div className='quality-div bg-white text-primary-dark'>
+    <div className='quality-div bg-white text-primary-dark animation-div'>
       <div className='container'>
         <div className='row align-items-center'>
           <div className='col-md-6 order-1 order-sm-1 order-md-1'>
@@ -65,7 +65,7 @@ function About() {
         </div>
       </div>
     </div>
-    <div className='strategy-div' id='Strategy'>
+    <div className='strategy-div animation-div' id='Strategy'>
       <div className='container'>
         <div className='row align-items-center'>
           <div className='col-md-6 order-1 order-sm-1 order-md-2'>

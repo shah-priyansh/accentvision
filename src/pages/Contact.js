@@ -19,7 +19,7 @@ function Contact() {
       </div>
     </div>
 
-    <div className='contact-location bg-white text-primary-dark'>
+    <div className='contact-location bg-white text-primary-dark animation-div'>
       <div className='container'>
         <div className='row'>
           <div className="col-md-12">
@@ -180,7 +180,7 @@ function Contact() {
       </div>
     </div>
 
-    <div className='contact-form-div bg-dark-primary'>
+    <div className='contact-form-div bg-dark-primary animation-div'>
       <div className='container'>
         <div className='contact-form'>
           <div className="div-title text-center mb-5">

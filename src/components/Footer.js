@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 function Footer() {
   return (
 
-      <footer className="main-footer wow animate__animated animate__fadeInUp">
+      <footer className="main-footer animation-div">
           <div id="particles-js"></div>
           <div className='container'>
               <div className='row'>
@@ -59,16 +59,15 @@ function Footer() {
                       <div className='bottom-footer'>
                           <div className='footer-link mb-4 wow animate__animated animate__fadeInUp'>
                               <ul>
-                                  <li><a href='#'>Home</a></li>
-                                  <li><a href='#'>Insights</a></li>
-                                  <li><a href='#'>Solutions</a></li>
-                                  <li><a href='#'>Staffing</a></li>
-                                  <li><a href='#'>Career</a></li>
-                                  <li><a href='#'>Contact Us</a></li>
+                                  <li><a href='/'>Home</a></li>
+                                  <li><a href='/about-us'>Insights</a></li>
+                                  <li><a href='/offshore-staffing'>Staffing</a></li>
+                                  <li><a href='/career'>Career</a></li>
+                                  <li><a href='/contact'>Contact Us</a></li>
                               </ul>
                           </div>
                           <div className='social-link mb-5 wow animate__animated animate__fadeInUp'>
-                              <a href='#'>
+                              <a href='https://www.facebook.com/accentvision' target='_blank'>
                                   <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                                        viewBox="0 0 24 24">
@@ -77,7 +76,7 @@ function Footer() {
                                             clip-rule="evenodd"/>
                                   </svg>
                               </a>
-                              <a href='#'>
+                              <a href='https://www.linkedin.com/company/accentvision/' target='_blank'>
                                   <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                                        viewBox="0 0 24 24">
@@ -88,16 +87,18 @@ function Footer() {
                                   </svg>
 
                               </a>
-                              <a href='#'>
+                              <a href='https://www.youtube.com/watch?v=fDUJV2rd8Q4&feature=youtu.be' target='_blank'>
                                   <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                                        viewBox="0 0 24 24">
-                                      <path
-                                          d="M13.795 10.533 20.68 2h-3.073l-5.255 6.517L7.69 2H1l7.806 10.91L1.47 22h3.074l5.705-7.07L15.31 22H22l-8.205-11.467Zm-2.38 2.95L9.97 11.464 4.36 3.627h2.31l4.528 6.317 1.443 2.02 6.018 8.409h-2.31l-4.934-6.89Z"/>
+                                      <path fill-rule="evenodd"
+                                            d="M21.7 8.037a4.26 4.26 0 0 0-.789-1.964 2.84 2.84 0 0 0-1.984-.839c-2.767-.2-6.926-.2-6.926-.2s-4.157 0-6.928.2a2.836 2.836 0 0 0-1.983.839 4.225 4.225 0 0 0-.79 1.965 30.146 30.146 0 0 0-.2 3.206v1.5a30.12 30.12 0 0 0 .2 3.206c.094.712.364 1.39.784 1.972.604.536 1.38.837 2.187.848 1.583.151 6.731.2 6.731.2s4.161 0 6.928-.2a2.844 2.844 0 0 0 1.985-.84 4.27 4.27 0 0 0 .787-1.965 30.12 30.12 0 0 0 .2-3.206v-1.516a30.672 30.672 0 0 0-.202-3.206Zm-11.692 6.554v-5.62l5.4 2.819-5.4 2.801Z"
+                                            clip-rule="evenodd"/>
                                   </svg>
 
+
                               </a>
-                              <a href='#'>
+                              <a href='https://www.instagram.com/accentvisioninc/' target='_blank'>
                                   <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                        viewBox="0 0 24 24">

@@ -89,7 +89,7 @@ const App = () => {
 
       // Check if the screen width is greater than or equal to 1200px
       if (window.innerWidth >= 1200) {
-        const cards = gsap.utils.toArray(".card");
+        const cards = gsap.utils.toArray(".animation-div");
         const lastCardIndex = cards.length - 1;
 
         const lastCardST = ScrollTrigger.create({

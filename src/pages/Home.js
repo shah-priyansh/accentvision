@@ -143,7 +143,7 @@ const Home = () => {
 
   return (
     <div className="home-content scroll-container">
-      <div className="banner-div">
+      <div className="banner-div animation-div">
         {/*<div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-md-7">
@@ -171,7 +171,7 @@ const Home = () => {
         </video>
       </div>
 
-      <div className="card we-are-div bg-white text-primary-dark animation-div py-5">
+      <div className="we-are-div bg-white text-primary-dark animation-div py-5">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -273,7 +273,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="card services-div animation-div">
+      <div className="services-div animation-div">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -464,7 +464,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="card testimonial-div bg-white text-primary-dark animation-div">
+      <div className="testimonial-div bg-white text-primary-dark animation-div">
         <div className="container">
           <div className="row">
             <div className="col-md-12"></div>
@@ -544,7 +544,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="customer-div customer-div-light">
+      <div className="customer-div customer-div-light bg-white animation-div">
         <div className="container">
           <div className="row">
             <div className="col-md-12">

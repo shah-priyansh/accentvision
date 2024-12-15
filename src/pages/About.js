@@ -21,7 +21,7 @@ function About() {
       </div>
     </div>
 
-    <div className='about-us-div bg-white text-primary-dark overflow-hidden'>
+    <div className='about-us-div bg-white text-primary-dark overflow-hidden animation-div'>
       <div className='container'>
         <div className='row'>
           <div className='col-md-6'>
@@ -65,11 +65,11 @@ function About() {
       </div>
     </div>
 
-    <div className='about-img-div wow animate__animated animate__fadeInUp'>
+    <div className='about-img-div animation-div'>
       <img src='/assets/images/about/about-img.webp' alt='img' className='img-fluid'/>
     </div>
 
-    <div className='mission-vision-div'>
+    <div className='mission-vision-div animation-div bg-dark-primary'>
       <div className='container'>
         <div className='row'>
           <div className='col-md-12'>
