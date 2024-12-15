@@ -1,41 +1,89 @@
 // src/App.js
+
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import QualityAndStrategy from "./pages/QualityAndStrategy";
-import Academy from "./pages/Academy";
-import ArtificialIntelligenceServices from "./pages/ArtificialIntelligenceServices";
-import PointofSalesandECommerce from "./pages/PointofSalesandECommerce";
-import SalesforceIntegrationCustomization from "./pages/SalesforceIntegrationCustomization";
-import Erp from "./pages/Erp";
-import AndroidAppDevelopment from "./pages/AndroidAppDevelopment";
-import IOSDevelopment from "./pages/IOSDevelopment";
-import DataAnalytics from "./pages/DataAnalytics";
-import Productization from "./pages/Productization";
-import Automation from "./pages/Automation";
-import CloudServices from "./pages/CloudServices";
-import OnshoreStaffing from "./pages/OnshoreStaffing";
-import OffshoreStaffing from "./pages/OffshoreStaffing";
-import Career from "./pages/Career";
-import OwlCarousel from "react-owl-carousel";
+// import Header from "./components/Header";
+// import Footer from "./components/Footer";
+// import Home from "./pages/Home";
+// import About from "./pages/About";
+// import Contact from "./pages/Contact";
+// import QualityAndStrategy from "./pages/QualityAndStrategy";
+// import Academy from "./pages/Academy";
+// import ArtificialIntelligenceServices from "./pages/ArtificialIntelligenceServices";
+// import PointofSalesandECommerce from "./pages/PointofSalesandECommerce";
+// import SalesforceIntegrationCustomization from "./pages/SalesforceIntegrationCustomization";
+// import Erp from "./pages/Erp";
+// import AndroidAppDevelopment from "./pages/AndroidAppDevelopment";
+// import IOSDevelopment from "./pages/IOSDevelopment";
+// import DataAnalytics from "./pages/DataAnalytics";
+// import Productization from "./pages/Productization";
+// import Automation from "./pages/Automation";
+// import CloudServices from "./pages/CloudServices";
+// import OnshoreStaffing from "./pages/OnshoreStaffing";
+// import OffshoreStaffing from "./pages/OffshoreStaffing";
+// import Career from "./pages/Career";
+// import OwlCarousel from "react-owl-carousel";
 import WOW from "wowjs";
 import "animate.css";
-import Animation from "./pages/animation";
-function App() {
+// import Animation from "./pages/animation";
+import Layout from "./layout";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { routes } from "./routes";
+
+// Grouped route configuration for better readability
+
+const App = () => {
   useEffect(() => {
     new WOW.WOW({
       live: false,
     }).init();
   }, []);
 
+  useEffect(() => {
+    const cards = gsap.utils.toArray(".card"); // Get all card elements
+    const lastCardIndex = cards.length - 1;
+    const lastCardST = ScrollTrigger.create({
+      trigger: cards[lastCardIndex],
+      start: "center center",
+      markers: false,
+    });
+    // Iterate through cards and create animations
+    cards.forEach((card, index) => {
+      const scale = index === lastCardIndex ? 1 : 0.9;
+      // const opacity = index === lastCardIndex ? 1 : 0.7;
+      const opacity = 1;
+      const scaleAndFade = gsap.to(card, {
+        scale: scale,
+        opacity: opacity,
+        duration: 0.5,
+      });
+      ScrollTrigger.create({
+        trigger: card,
+        start: "bottom bottom",
+        end: () => lastCardST.start,
+        pin: true,
+        pinSpacing: false,
+        scrub: 0.5,
+        ease: "none",
+        markers: false,
+        animation: scaleAndFade,
+        toggleActions: "restart none none reverse",
+        onEnter: () => gsap.to(card, { opacity: 1 }), // Ensure the current card is fully visible
+        onLeaveBack: () => gsap.to(card, { opacity: 1 }), // Fade out previous cards
+      });
+    });
+    return () => {
+      // Cleanup ScrollTriggers when the component unmounts
+      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+    };
+    // **************************************
+  }, []);
+
   return (
     <Router>
       <div className="page-content-div">
-        <Header />
+        {/* <Header /> */}
         {/*<div
           className={`wow animate__animated animate__fadeIn`}
           data-wow-delay={"0.5s"}
@@ -91,7 +139,7 @@ function App() {
           </div>
         </OwlCarousel>*/}
         <div className="flex-grow-1">
-          <Routes>
+          {/* <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/animation" element={<Animation />} />
             <Route path="/about" element={<About />} />
@@ -126,12 +174,21 @@ function App() {
             <Route path="/onshore-staffing" element={<OnshoreStaffing />} />
             <Route path="/offshore-staffing" element={<OffshoreStaffing />} />
             <Route path="/career" element={<Career />} />
+          </Routes> */}
+          <Routes>
+            {routes.map(({ path, element }, index) => (
+              <Route
+                key={index}
+                path={path}
+                element={<Layout>{element}</Layout>}
+              />
+            ))}
           </Routes>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );
-}
+};
 
 export default App;
