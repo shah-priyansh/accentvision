@@ -9,7 +9,7 @@ function About() {
           <div className='page-banner-content wow animate__animated animate__fadeInLeft'>
             <h1>Accentvision <br/><span className='hl-color'>Technology</span> Inc</h1>
             <p>
-              is a world-class Technology Solutions provider specializing in the <br/>following cutting-edge offerings:
+              delivers innovative, high-quality technology solutions focused on solving problems, creating value, and driving strategic alignment.
             </p>
           </div>
         </div>
@@ -37,7 +37,10 @@ function About() {
           </div>
           <div className='col-md-6'>
             <div className='about-right wow animate__animated animate__fadeInRight'>
-              <ul className='ps-3'>
+              <p>
+                Accentvision Technology Inc is a world-class Technology Solutions provider specializing in the following cutting-edge offerings:
+              </p>
+              <ul className='ps-3 mb-3'>
                 <li>Premium Business Platform Solutions - Salesforce</li>
                 <li>Elite IT Staffing and Consultancy Services</li>
                 <li>Exemplary Android and iOS Mobile App Development</li>

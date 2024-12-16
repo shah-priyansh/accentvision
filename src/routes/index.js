@@ -17,6 +17,10 @@ import OnshoreStaffing from "../pages/OnshoreStaffing";
 import OffshoreStaffing from "../pages/OffshoreStaffing";
 import Career from "../pages/Career";
 import Animation from "../pages/animation";
+import Privacy from "../pages/Privacy";
+import Terms from "../pages/Terms";
+import Strategy from "../pages/Strategy";
+import Team from "../pages/Team";
 
 export const routes = [
   { path: "/", element: <Home />, label: "Home" },
@@ -78,4 +82,8 @@ export const routes = [
     label: "Offshore Staffing",
   },
   { path: "/career", element: <Career />, label: "Career" },
+  { path: "/privacy", element: <Privacy />, label: "Privacy" },
+  { path: "/terms", element: <Terms />, label: "Terms" },
+  { path: "/strategy", element: <Strategy />, label: "Strategy" },
+  { path: "/team", element: <Team />, label: "Team" },
 ];

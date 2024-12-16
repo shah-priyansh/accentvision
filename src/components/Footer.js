@@ -19,7 +19,7 @@ function Footer() {
                       </div>
 
                       <div className='footer-form mb-5 wow animate__animated animate__fadeInUp'>
-                          <h5>Stay Connected</h5>
+                          <h5>Stay updated with our Newsletter</h5>
                           <div className='form-div'>
                               <div className='row'>
                                   <div className='col-md-4'>
@@ -49,10 +49,10 @@ function Footer() {
                               </button>
                           </div>
 
-                          <p>
+                          {/*<p>
                               <input type='checkbox' className='me-2'/>
                               By submitting this form, you agree to receive future emails from accentvision.
-                          </p>
+                          </p>*/}
                       </div>
 
 
@@ -60,22 +60,13 @@ function Footer() {
                           <div className='footer-link mb-4 wow animate__animated animate__fadeInUp'>
                               <ul>
                                   <li><a href='/'>Home</a></li>
-                                  <li><a href='/about-us'>Insights</a></li>
-                                  <li><a href='/offshore-staffing'>Staffing</a></li>
+                                  <li><a href='/privacy'>Privacy Policy</a></li>
+                                  <li><a href='/terms'>Terms of Use</a></li>
                                   <li><a href='/career'>Career</a></li>
                                   <li><a href='/contact'>Contact Us</a></li>
                               </ul>
                           </div>
                           <div className='social-link mb-5 wow animate__animated animate__fadeInUp'>
-                              <a href='https://www.facebook.com/accentvision' target='_blank'>
-                                  <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
-                                       xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                                       viewBox="0 0 24 24">
-                                      <path fill-rule="evenodd"
-                                            d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z"
-                                            clip-rule="evenodd"/>
-                                  </svg>
-                              </a>
                               <a href='https://www.linkedin.com/company/accentvision/' target='_blank'>
                                   <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
@@ -85,17 +76,6 @@ function Footer() {
                                             clip-rule="evenodd"/>
                                       <path d="M7.2 8.809H4V19.5h3.2V8.809Z"/>
                                   </svg>
-
-                              </a>
-                              <a href='https://www.youtube.com/watch?v=fDUJV2rd8Q4&feature=youtu.be' target='_blank'>
-                                  <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
-                                       xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                                       viewBox="0 0 24 24">
-                                      <path fill-rule="evenodd"
-                                            d="M21.7 8.037a4.26 4.26 0 0 0-.789-1.964 2.84 2.84 0 0 0-1.984-.839c-2.767-.2-6.926-.2-6.926-.2s-4.157 0-6.928.2a2.836 2.836 0 0 0-1.983.839 4.225 4.225 0 0 0-.79 1.965 30.146 30.146 0 0 0-.2 3.206v1.5a30.12 30.12 0 0 0 .2 3.206c.094.712.364 1.39.784 1.972.604.536 1.38.837 2.187.848 1.583.151 6.731.2 6.731.2s4.161 0 6.928-.2a2.844 2.844 0 0 0 1.985-.84 4.27 4.27 0 0 0 .787-1.965 30.12 30.12 0 0 0 .2-3.206v-1.516a30.672 30.672 0 0 0-.202-3.206Zm-11.692 6.554v-5.62l5.4 2.819-5.4 2.801Z"
-                                            clip-rule="evenodd"/>
-                                  </svg>
-
 
                               </a>
                               <a href='https://www.instagram.com/accentvisioninc/' target='_blank'>
@@ -108,6 +88,28 @@ function Footer() {
                                   </svg>
 
                               </a>
+                              <a href='https://www.facebook.com/accentvision' target='_blank'>
+                                  <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                                       xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                       viewBox="0 0 24 24">
+                                      <path fill-rule="evenodd"
+                                            d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z"
+                                            clip-rule="evenodd"/>
+                                  </svg>
+                              </a>
+
+                              <a href='https://www.youtube.com/watch?v=fDUJV2rd8Q4&feature=youtu.be' target='_blank'>
+                                  <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                                       xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                       viewBox="0 0 24 24">
+                                      <path fill-rule="evenodd"
+                                            d="M21.7 8.037a4.26 4.26 0 0 0-.789-1.964 2.84 2.84 0 0 0-1.984-.839c-2.767-.2-6.926-.2-6.926-.2s-4.157 0-6.928.2a2.836 2.836 0 0 0-1.983.839 4.225 4.225 0 0 0-.79 1.965 30.146 30.146 0 0 0-.2 3.206v1.5a30.12 30.12 0 0 0 .2 3.206c.094.712.364 1.39.784 1.972.604.536 1.38.837 2.187.848 1.583.151 6.731.2 6.731.2s4.161 0 6.928-.2a2.844 2.844 0 0 0 1.985-.84 4.27 4.27 0 0 0 .787-1.965 30.12 30.12 0 0 0 .2-3.206v-1.516a30.672 30.672 0 0 0-.202-3.206Zm-11.692 6.554v-5.62l5.4 2.819-5.4 2.801Z"
+                                            clip-rule="evenodd"/>
+                                  </svg>
+
+
+                              </a>
+
                           </div>
                           <div className='copyright-div wow animate__animated animate__fadeInUp'>
                               <p className='text-center'>© Copyright 2023 Accentvision Technology Inc</p>
