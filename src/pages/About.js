@@ -24,21 +24,17 @@ function About() {
     <div className='about-us-div bg-white text-primary-dark overflow-hidden animation-div'>
       <div className='container'>
         <div className='row'>
-          <div className='col-md-6'>
+          <div className='col-lg-4'>
             <div className='about-left wow animate__animated animate__fadeInLeft'>
-              <h5>
-                Our unwavering commitment is to meticulously assess the unique requirements of our esteemed clientele
-                and deliver superlative solutions, consistently on schedule and within budget. We harness the power of
-                Agile and Lean principles to ensure lightning-fast time-to-market and deliver exceptional Returns on
-                Investment.
-              </h5>
+              <img src='/assets/images/about/aboutImg.jpg' alt='img' className='img-fluid rounded-4' width='100%'/>
             </div>
 
           </div>
-          <div className='col-md-6'>
+          <div className='col-lg-8'>
             <div className='about-right wow animate__animated animate__fadeInRight'>
               <p>
-                Accentvision Technology Inc is a world-class Technology Solutions provider specializing in the following cutting-edge offerings:
+                Accentvision Technology Inc is a world-class Technology Solutions provider specializing in the following
+                cutting-edge offerings:
               </p>
               <ul className='ps-3 mb-3'>
                 <li>Premium Business Platform Solutions - Salesforce</li>
@@ -50,19 +46,28 @@ function About() {
                 <li>Productization and Automation for Unparalleled Revenue Growth</li>
               </ul>
               <p>
-                At Accentvision, we are the epitome of excellence, driven by our unwavering commitment to deliver
-                unparalleled business value. With an unrelenting focus on quality and cultivating enduring, long-term
-                relationships, our solutions are meticulously designed to align seamlessly with your strategic business
-                objectives. Our delivery process is a masterpiece, incorporating industry best practices and time-tested
-                quality frameworks.
+                Our unwavering commitment is to meticulously assess the unique requirements of our esteemed clientele
+                and deliver superlative solutions, consistently on schedule and within budget. We harness the power of
+                Agile and Lean principles to ensure lightning-fast time-to-market and deliver exceptional Returns on
+                Investment.
               </p>
-              <p>
-                Why Accentvision Stands Above the Rest: Our relentless dedication to innovation, a legacy of quality
-                delivery, and our profound ability to tackle your most intricate business challenges set us apart as the
-                indisputable market leader.
-              </p>
+
             </div>
 
+          </div>
+          <div className='col-md-12'>
+            <p>
+              At Accentvision, we are the epitome of excellence, driven by our unwavering commitment to deliver
+              unparalleled business value. With an unrelenting focus on quality and cultivating enduring, long-term
+              relationships, our solutions are meticulously designed to align seamlessly with your strategic business
+              objectives. Our delivery process is a masterpiece, incorporating industry best practices and time-tested
+              quality frameworks.
+            </p>
+            <p>
+              Why Accentvision Stands Above the Rest: Our relentless dedication to innovation, a legacy of quality
+              delivery, and our profound ability to tackle your most intricate business challenges set us apart as the
+              indisputable market leader.
+            </p>
           </div>
         </div>
       </div>
