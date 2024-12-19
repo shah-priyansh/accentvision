@@ -10,10 +10,7 @@ function About() {
             <div className='page-banner-content wow animate__animated animate__fadeInLeft'>
               <h1>Onshore Staffing </h1>
               <p>
-                Onshore Staffing: Your Source for Top Talent<br/>
-                In today's fast-paced business world, we deliver the ideal talent match exactly when you need it. Our
-                thorough screening process ensures a perfect fit for your projects, freeing you to focus on your core
-                business.
+                Local Talent with seamless collaboration, strong teamwork, and 100% reliability.
               </p>
             </div>
           </div>
@@ -25,7 +22,7 @@ function About() {
         </div>
       </div>
 
-      <div className='quality-div bg-white text-primary-dark animation-div'>
+      <div className='quality-div bg-white text-primary-dark'>
         <div className='container'>
           <div className="col-md-12">
             <div className="div-title text-center mb-5">
@@ -38,7 +35,7 @@ function About() {
             <div className='col-md-12 order-1 order-sm-1 order-md-1'>
               <div className='quality-img bg-white p-2 p-sm-2 p-md-5 mb-5 wow animate__animated animate__zoomIn'>
                 <img
-                    src="/assets/images/onshore/Staffing-main.png"
+                    src="/assets/images/onshore/onsite-staffing.png"
                     alt="img"
                     className="img-fluid w-100"
                 />

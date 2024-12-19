@@ -98,7 +98,7 @@ function Header() {
                                           <div className='menu-box'>
                                               <a href='/offshore-staffing'>
                                                   Offshore Staffing
-                                                  <span> Your Gateway to Global Talent with Cost Efficiency </span>
+                                                  <span> Your gateway to global talent with cost efficiency, trust, and round-the-clock support.</span>
                                               </a>
                                           </div>
                                       </div>
@@ -107,7 +107,7 @@ function Header() {
                                               <a href='/onshore-staffing'>
                                                   Onsite Staffing
                                                   <span>
-                                                       Your Gateway to Global Talent with Cost Efficiency
+                                                       Local Talent with seamless collaboration, strong teamwork, and 100% reliability.
                                                   </span>
                                               </a>
                                           </div>
@@ -116,7 +116,7 @@ function Header() {
                                           <div className='menu-box'>
                                               <a href='/automation'>
                                                   Automation
-                                                  <span>Accentvision: Elevating Automation Excellence</span>
+                                                  <span>Automate your staffing process with the power of our cutting-edge EnterpriseRecruit platform.</span>
                                               </a>
                                           </div>
                                       </div>
@@ -143,7 +143,7 @@ function Header() {
                                               <a href='/andriod-app-development'>
                                                   Software & Mobile Apps
                                                   <span>
-                                                      Why Choose Our Android and iOS App Development Service?
+                                                      Innovative solutions, exceptional user experiences, and incredible teamwork.
                                                   </span>
                                               </a>
                                           </div>
@@ -151,7 +151,7 @@ function Header() {
                                               <a href='/artificial-intelligence-services'>
                                                   Artificial Intelligence
                                                   <span>
-                                                      Harness the power of Artificial Intelligence to transform your business..
+                                                      Intelligent solutions, Data-driven insights, and transformative Innovation for your business.
                                                   </span>
                                               </a>
                                           </div>
@@ -159,7 +159,7 @@ function Header() {
                                               <a href='/data-analytics'>
                                                   Data Analytics
                                                   <span>
-                                                      Celebrate Excellence in Data Solutions with Us
+                                                      Actionable insights, informed decisions, and strategic growth powered by your data.
                                                   </span>
                                               </a>
                                           </div>
@@ -178,7 +178,7 @@ function Header() {
                                               <a href='#'>
                                                   Cybersecurity
                                                   <span>
-                                                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                      Comprehensive protection, proactive monitoring, and resilient solutions for your organization.
                                                   </span>
                                               </a>
                                           </div>
@@ -186,7 +186,7 @@ function Header() {
                                               <a href='/cloud-services'>
                                                   Cloud Services
                                                   <span>
-                                                      Accentvision: Your Partner in Cloud Transformation
+                                                      Scalable solutions, Seamless integration, and enhanced flexibility for your business needs.
                                                   </span>
                                               </a>
                                           </div>
@@ -196,7 +196,7 @@ function Header() {
                                               <a href='#'>
                                                   Dynamics
                                                   <span>
-                                                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                      Enhance sales efficiency, and drive business success with tailored Dynamics solutions and expert support.
                                                   </span>
                                               </a>
                                           </div>
@@ -204,7 +204,7 @@ function Header() {
                                               <a href='#'>
                                                   DevOps
                                                   <span>
-                                                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                      Accelerated delivery, team collaboration, and continuous improvement for your software development & deployment.
                                                   </span>
                                               </a>
                                           </div>
@@ -212,7 +212,7 @@ function Header() {
                                               <a href='#'>
                                                   ERP
                                                   <span>
-                                                      Experience a Paradigm Shift: Say Goodbye to Exorbitant ERP Expenses..
+                                                      Say goodbye to costly ERP solutions. Embrace Odoo for affordable, scalable, and efficient business management.
                                                   </span>
                                               </a>
                                           </div>
@@ -323,7 +323,7 @@ function Header() {
                                               <a href='#'>
                                                   Telecom
                                                   <span>
-                                                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                      Experience seamless, intensive telecom implementation tailored to optimize networks, enhance connectivity, and drive innovation.
                                                   </span>
                                               </a>
                                           </div>
@@ -333,7 +333,7 @@ function Header() {
                                               <a href='#'>
                                                   Finance
                                                   <span>
-                                                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                      Delivering comprehensive, scalable finance solutions to streamline operations, ensure compliance, and drive financial growth.
                                                   </span>
                                               </a>
                                           </div>
@@ -343,7 +343,7 @@ function Header() {
                                               <a href='#'>
                                                   Retail
                                                   <span>
-                                                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                          Transform your retail operations with TOC360, delivering advanced automation for seamless efficiency, accuracy, and enhanced customer experiences.
                                                       </span>
                                               </a>
                                           </div>
@@ -353,7 +353,7 @@ function Header() {
                                               <a href='#'>
                                                   ECommerce
                                                   <span>
-                                                     Our top-rated business management solution integrates..
+                                                   Elevate your business with advanced Ecommerce solutions seamlessly integrated with TOC360, streamlining operations and enhancing customer engagement.
                                                   </span>
                                               </a>
                                           </div>
@@ -380,7 +380,7 @@ function Header() {
                                               <a href='#'>
                                                   TOC360
                                                   <span>
-                                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                     Grow your business with TOC360, offering tailored tools for billing, inventory, and sales at a fraction of the cost.
                                                   </span>
                                               </a>
                                           </div>
@@ -389,7 +389,7 @@ function Header() {
                                           <div className='menu-box'>
                                               <a href='#'>
                                                   PMS
-                                                  <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span>
+                                                  <span>Streamline hotel operations with our simple-to-use Property Management System, offering seamless booking, guest management, and superior experience.</span>
                                               </a>
                                           </div>
                                       </div>
@@ -397,7 +397,7 @@ function Header() {
                                           <div className='menu-box'>
                                               <a href='#'>
                                                   SmartSense
-                                                  <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span>
+                                                  <span>Prevent booking theft and enhance security, tracking room activity to ensure efficient and safe operations. </span>
                                               </a>
                                           </div>
                                       </div>
@@ -423,7 +423,7 @@ function Header() {
                                               <a href='#'>
                                                   Automation & AI
                                                   <span>
-                                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                     Streamline your business with intelligent chatbots and workflow automation, enhancing efficiency and delivering smarter customer interactions.
                                                   </span>
                                               </a>
                                           </div>
@@ -432,7 +432,7 @@ function Header() {
                                           <div className='menu-box'>
                                               <a href='#'>
                                                   Telecom 5G
-                                                  <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span>
+                                                  <span>Empower your business with secure, high-speed 5G private networks designed for unparalleled connectivity, low latency, and tailored industry applications. </span>
                                               </a>
                                           </div>
                                       </div>
@@ -440,7 +440,7 @@ function Header() {
                                           <div className='menu-box'>
                                               <a href='#'>
                                                   Donation App
-                                                  <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span>
+                                                  <span>Simplify giving with our donation app, designed to securely manage donations, and support your mission with ease and transparency. </span>
                                               </a>
                                           </div>
                                       </div>

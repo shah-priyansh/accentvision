@@ -10,7 +10,7 @@ function About() {
             <div className='page-banner-content wow animate__animated animate__fadeInLeft'>
               <h1>Automation</h1>
               <p>
-                Accentvision: Elevating Automation Excellence
+                Automate your staffing process with the power of our cutting-edge EnterpriseRecruit platform.
               </p>
             </div>
           </div>
@@ -44,6 +44,37 @@ function About() {
           </div>
         </div>
       </div>
+      <div className='quality-div bg-dark-primary text-white animation-div'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-md-12 order-1 order-sm-1 order-md-1'>
+              <div className='quality-img bg-white p-2 p-sm-2 p-md-5 mb-5 wow animate__animated animate__zoomIn'>
+                <img
+                    src="/assets/images/automation/slide1.JPG"
+                    alt="img"
+                    className="img-fluid w-100"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='quality-div bg-white text-primary-dark animation-div'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-md-12 order-1 order-sm-1 order-md-1'>
+              <div className='quality-img bg-white p-2 p-sm-2 p-md-5 mb-5 wow animate__animated animate__zoomIn'>
+                <img
+                    src="/assets/images/automation/slide2.JPG"
+                    alt="img"
+                    className="img-fluid w-100"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className='services-div key-feature animation-div'>
         <div className='container'>
           <div className="col-md-12">
@@ -148,8 +179,21 @@ function About() {
           </div>
         </div>
       </div>
-
-
+      <div className='quality-div bg-white text-primary-dark animation-div'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-md-12 order-1 order-sm-1 order-md-1'>
+              <div className='quality-img bg-white p-2 p-sm-2 p-md-5 mb-5 wow animate__animated animate__zoomIn'>
+                <img
+                    src="/assets/images/automation/slide3.JPG"
+                    alt="img"
+                    className="img-fluid w-100"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       {/*<div className='customer-div customer-div-light'>
         <div className='container'>
           <div className='row'>

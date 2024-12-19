@@ -10,7 +10,7 @@ function About() {
             <div className='page-banner-content wow animate__animated animate__fadeInLeft'>
               <h1>Data Platform &<br/> <span className='hl-color'>Analytics Solutions</span></h1>
               <p>
-                Celebrate Excellence in Data Solutions with Us
+                Actionable insights, informed decisions, and strategic growth powered by your data.
               </p>
             </div>
           </div>

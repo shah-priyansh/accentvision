@@ -11,15 +11,15 @@ function Footer() {
               <div className='row'>
                   <div className='col-md-12'>
                       <div className='footer-top'>
-                          <h6 className='wow animate__animated animate__fadeInDown'>Lorem Ipsum is simply dummy.</h6>
-                          <h1 className='wow animate__animated animate__fadeInDown'>trust the <span>Future</span></h1>
-
-                          <button className='btn hl-btn wow animate__animated animate__zoomIn'>Contact Us</button>
+                          {/*<h6 className='wow animate__animated animate__fadeInDown'>Lorem Ipsum is simply dummy.</h6>*/}
+                          {/*<h1 className='wow animate__animated animate__fadeInDown'>trust the <span>Future</span></h1>*/}
+                          <p className='wow animate__animated animate__fadeInDown h2 mb-4'>Stay updated with our Newsletter</p>
+                          {/*<button className='btn hl-btn wow animate__animated animate__zoomIn'>Contact Us</button>*/}
 
                       </div>
 
                       <div className='footer-form mb-5 wow animate__animated animate__fadeInUp'>
-                          <h5>Stay updated with our Newsletter</h5>
+                          {/*<h5>Stay updated with our Newsletter</h5>*/}
                           <div className='form-div'>
                               <div className='row'>
                                   <div className='col-md-4'>

@@ -11,9 +11,9 @@ function About() {
         <div className='row align-items-center'>
           <div className='col-md-6'>
             <div className='page-banner-content wow animate__animated animate__fadeInLeft'>
-              <h1> Android App<br/> <span className='hl-color'> Development </span></h1>
+              <h1> Software <br/> <span className='hl-color'> & Mobile App </span></h1>
               <p>
-                Elevate Your Business with Android App Expertise
+                Innovative solutions, exceptional user experiences, and incredible teamwork.
               </p>
             </div>
           </div>

@@ -10,7 +10,7 @@ function About() {
             <div className='page-banner-content wow animate__animated animate__fadeInLeft'>
               <h1> Cloud Services </h1>
               <p>
-                Accentvision: Your Partner in Cloud Transformation
+                Scalable solutions, Seamless integration, and enhanced flexibility for your business needs.
               </p>
             </div>
           </div>

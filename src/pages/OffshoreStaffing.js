@@ -10,12 +10,7 @@ function About() {
             <div className='page-banner-content wow animate__animated animate__fadeInLeft'>
               <h1>Offshore Staffing </h1>
               <p>
-                Your Gateway to Global Talent with Cost Efficiency <br/>
-                In today's dynamic and interconnected global business environment, we provide you with the ideal talent
-                solution for offshore projects. Our meticulous screening process ensures that you have access to the
-                right expertise precisely when you need it. This allows you to focus on your core business operations
-                while we take care of the offshore resource supply, helping you navigate the complexities of
-                international markets with ease.
+                Your gateway to global talent with cost efficiency, trust, and round-the-clock support.
               </p>
             </div>
           </div>
@@ -41,7 +36,7 @@ function About() {
             <div className='col-md-12 order-1 order-sm-1 order-md-1'>
               <div className='quality-img bg-white p-2 p-sm-2 p-md-5 mb-5 wow animate__animated animate__zoomIn'>
                 <img
-                    src="/assets/images/onshore/Staffing-main.png"
+                    src="/assets/images/onshore/offshore-staffing.png"
                     alt="img"
                     className="img-fluid w-100"
                 />
