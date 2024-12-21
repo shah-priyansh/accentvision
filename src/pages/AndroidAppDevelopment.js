@@ -31,7 +31,7 @@ function About() {
           <div className='row align-items-center'>
             <div className='col-md-6 order-1 order-sm-1 order-md-1'>
               <div className='quality-img wow animate__animated animate__fadeInLeft'>
-                <img src='/assets/images/app/EnterpriseMobileApp.png' alt='img' className='img-fluid' width='100%'/>
+                <img src='/assets/images/app/MobileApp.jpg' alt='img' className='img-fluid' width='100%'/>
               </div>
             </div>
             <div className='col-md-6 order-1 order-sm-1 order-md-2'>

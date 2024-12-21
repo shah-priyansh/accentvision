@@ -7,6 +7,7 @@ import ArtificialIntelligenceServices from "../pages/ArtificialIntelligenceServi
 import PointofSalesandECommerce from "../pages/PointofSalesandECommerce";
 import SalesforceIntegrationCustomization from "../pages/SalesforceIntegrationCustomization";
 import Erp from "../pages/Erp";
+import OdooErp from "../pages/OdooErp";
 import AndroidAppDevelopment from "../pages/AndroidAppDevelopment";
 import IOSDevelopment from "../pages/IOSDevelopment";
 import DataAnalytics from "../pages/DataAnalytics";
@@ -20,6 +21,7 @@ import Animation from "../pages/animation";
 import Privacy from "../pages/Privacy";
 import Terms from "../pages/Terms";
 import Strategy from "../pages/Strategy";
+import InfrastructureServices from "../pages/InfrastructureServices";
 import Team from "../pages/Team";
 
 export const routes = [
@@ -86,4 +88,6 @@ export const routes = [
   { path: "/terms", element: <Terms />, label: "Terms" },
   { path: "/strategy", element: <Strategy />, label: "Strategy" },
   { path: "/team", element: <Team />, label: "Team" },
+  { path: "/odooerp", element: <OdooErp />, label: "OdooErp" },
+  { path: "/infrastructure-services", element: <InfrastructureServices />, label: "InfrastructureServices" },
 ];

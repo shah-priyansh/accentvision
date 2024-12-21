@@ -2,15 +2,15 @@
 import React, {Fragment} from "react";
 import OwlCarousel from "react-owl-carousel";
 
-function About() {
+function InfrastructureServices() {
     return <div>
       <div className='page-banner-div overflow-hidden'>
         <div className='row align-items-center'>
           <div className='col-md-6'>
             <div className='page-banner-content wow animate__animated animate__fadeInLeft'>
-              <h1>Data Platform &<br/> <span className='hl-color'>Analytics Solutions</span></h1>
+              <h1>Infrastructure  <span className='hl-color'>Services</span></h1>
               <p>
-                Actionable insights, informed decisions, and strategic growth powered by your data.
+                Robust solutions, scalable architecture, and reliable support for your business growth.
               </p>
             </div>
           </div>
@@ -24,18 +24,11 @@ function About() {
 
       <div className='quality-div bg-white text-primary-dark animation-div'>
         <div className='container'>
-          <div className="col-md-12">
-            <div className="div-title text-center mb-5">
-              <span className="hl-color wow animate__animated animate__fadeInDown">services</span>
-              <h3 className='wow animate__animated animate__fadeInUp'> Unlock the Power of Data with Accentvision Data
-                Solution Services </h3>
-            </div>
-          </div>
           <div className='row'>
             <div className='col-md-12 order-1 order-sm-1 order-md-1'>
               <div className='quality-img mb-5 wow animate__animated animate__zoomIn'>
                 <img
-                    src="/assets/images/data-analytics/data-analytics.jpg"
+                    src="/assets/images/infrastructure-services/infrastructure-services.jpg"
                     alt="img"
                     className="img-fluid w-100"
                 />
@@ -308,4 +301,4 @@ function About() {
     </div>;
 }
 
-export default About;
+export default InfrastructureServices;

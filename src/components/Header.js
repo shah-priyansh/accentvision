@@ -167,10 +167,10 @@ function Header() {
                                       <div className='col-md-4'>
 
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/infrastructure-services'>
                                                   Infrastructure Services
                                                   <span>
-                                                      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                      Robust solutions, scalable architecture, and reliable support for your business growth.
                                                   </span>
                                               </a>
                                           </div>
@@ -209,7 +209,7 @@ function Header() {
                                               </a>
                                           </div>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/erp'>
                                                   ERP
                                                   <span>
                                                       Say goodbye to costly ERP solutions. Embrace Odoo for affordable, scalable, and efficient business management.
