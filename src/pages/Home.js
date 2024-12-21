@@ -488,8 +488,8 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="customer-div customer-div-light bg-white position-relative">
-        <div className="container">
+      <div className="customer-div customer-div-light bg-white animation-div">
+        <div className="container-fluid">
           <div className="row">
             <div className="col-md-12">
               <div className="div-title text-center mb-5">
@@ -500,28 +500,29 @@ const Home = () => {
                   Our valued clients
                 </h3>
               </div>
+              <div className="slider-div">
+                {rows.map((row, rowIndex) => (
+                    <div className="slider-row" key={`row-${rowIndex}`}>
+                      <Marquee
+                          gradient={false}
+                          speed={40 + rowIndex * 10} // Different speed for each row
+                          pauseOnHover={true} // Pause scrolling on hover
+                      >
+                        {row.map((src, index) => (
+                            <div
+                                className="customer-img wow animate__animated animate__zoomIn"
+                                key={index}
+                            >
+                              <img src={src} alt="client" className="img-fluid"/>
+                            </div>
+                        ))}
+                      </Marquee>
+                    </div>
+                ))}
+              </div>
             </div>
 
-            <div className="slider-div">
-              {rows.map((row, rowIndex) => (
-                <div className="slider-row" key={`row-${rowIndex}`}>
-                  <Marquee
-                    gradient={false}
-                    speed={40 + rowIndex * 10} // Different speed for each row
-                    pauseOnHover={true} // Pause scrolling on hover
-                  >
-                    {row.map((src, index) => (
-                      <div
-                        className="customer-img wow animate__animated animate__zoomIn"
-                        key={index}
-                      >
-                        <img src={src} alt="client" className="img-fluid" />
-                      </div>
-                    ))}
-                  </Marquee>
-                </div>
-              ))}
-            </div>
+
           </div>
         </div>
       </div>
