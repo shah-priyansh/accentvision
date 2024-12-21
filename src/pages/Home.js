@@ -489,7 +489,7 @@ const Home = () => {
       </div>
 
       <div className="customer-div customer-div-light bg-white animation-div">
-        <div className="container-fluid">
+        <div className="container">
           <div className="row">
             <div className="col-md-12">
               <div className="div-title text-center mb-5">
