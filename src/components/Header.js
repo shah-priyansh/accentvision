@@ -175,7 +175,7 @@ function Header() {
                                               </a>
                                           </div>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/cybersecurity'>
                                                   Cybersecurity
                                                   <span>
                                                       Comprehensive protection, proactive monitoring, and resilient solutions for your organization.
@@ -193,7 +193,7 @@ function Header() {
                                       </div>
                                       <div className='col-md-4'>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/dynamics'>
                                                   Dynamics
                                                   <span>
                                                       Enhance sales efficiency, and drive business success with tailored Dynamics solutions and expert support.
@@ -201,7 +201,7 @@ function Header() {
                                               </a>
                                           </div>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/devops'>
                                                   DevOps
                                                   <span>
                                                       Accelerated delivery, team collaboration, and continuous improvement for your software development & deployment.

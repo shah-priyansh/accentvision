@@ -23,6 +23,9 @@ import Terms from "../pages/Terms";
 import Strategy from "../pages/Strategy";
 import InfrastructureServices from "../pages/InfrastructureServices";
 import Team from "../pages/Team";
+import DevOps from "../pages/DevOps";
+import Dynamics from "../pages/Dynamics";
+import Cybersecurity from "../pages/Cybersecurity";
 
 export const routes = [
   { path: "/", element: <Home />, label: "Home" },
@@ -90,4 +93,7 @@ export const routes = [
   { path: "/team", element: <Team />, label: "Team" },
   { path: "/odooerp", element: <OdooErp />, label: "OdooErp" },
   { path: "/infrastructure-services", element: <InfrastructureServices />, label: "InfrastructureServices" },
+  { path: "/devops", element: <DevOps />, label: "DevOps" },
+  { path: "/dynamics", element: <Dynamics />, label: "Dynamics" },
+  { path: "/cybersecurity", element: <Cybersecurity />, label: "Cybersecurity" },
 ];
