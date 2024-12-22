@@ -80,7 +80,9 @@ const App = () => {
   //   };
   //   // **************************************
   // }, []);
-  useEffect(() => {
+
+
+  /*useEffect(() => {
     let scrollTriggers = [];
 
     const handleResize = () => {
@@ -145,7 +147,7 @@ const App = () => {
       // Kill all ScrollTriggers
       scrollTriggers.forEach((trigger) => trigger.kill());
     };
-  }, []); // Empty dependency array
+  }, []); // Empty dependency array*/
 
   return (
     <Router>
