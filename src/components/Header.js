@@ -320,7 +320,7 @@ function Header() {
                                       {/*</div>*/}
                                       <div className='col-md-4'>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/telecom'>
                                                   Telecom
                                                   <span>
                                                       Experience seamless, intensive telecom implementation tailored to optimize networks, enhance connectivity, and drive innovation.
@@ -330,7 +330,7 @@ function Header() {
                                       </div>
                                       <div className='col-md-4'>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/finance'>
                                                   Finance
                                                   <span>
                                                       Delivering comprehensive, scalable finance solutions to streamline operations, ensure compliance, and drive financial growth.
@@ -340,7 +340,7 @@ function Header() {
                                       </div>
                                       <div className='col-md-4'>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/retail'>
                                                   Retail
                                                   <span>
                                                           Transform your retail operations with TOC360, delivering advanced automation for seamless efficiency, accuracy, and enhanced customer experiences.
@@ -350,7 +350,7 @@ function Header() {
                                       </div>
                                       <div className='col-md-4'>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/ecommerce'>
                                                   ECommerce
                                                   <span>
                                                    Elevate your business with advanced Ecommerce solutions seamlessly integrated with TOC360, streamlining operations and enhancing customer engagement.
@@ -377,7 +377,7 @@ function Header() {
                                       {/*</div>*/}
                                       <div className='col-md-4'>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/toc360'>
                                                   TOC360
                                                   <span>
                                                      Grow your business with TOC360, offering tailored tools for billing, inventory, and sales at a fraction of the cost.
@@ -387,7 +387,7 @@ function Header() {
                                       </div>
                                       <div className='col-md-4'>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/pms'>
                                                   PMS
                                                   <span>Streamline hotel operations with our simple-to-use Property Management System, offering seamless booking, guest management, and superior experience.</span>
                                               </a>
@@ -395,7 +395,7 @@ function Header() {
                                       </div>
                                       <div className='col-md-4'>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/smartSense'>
                                                   SmartSense
                                                   <span>Prevent booking theft and enhance security, tracking room activity to ensure efficient and safe operations. </span>
                                               </a>
@@ -420,7 +420,7 @@ function Header() {
                                       {/*</div>*/}
                                       <div className='col-md-4'>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/Automation-Ai'>
                                                   Automation & AI
                                                   <span>
                                                      Streamline your business with intelligent chatbots and workflow automation, enhancing efficiency and delivering smarter customer interactions.
@@ -430,7 +430,7 @@ function Header() {
                                       </div>
                                       <div className='col-md-4'>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/telecom5g'>
                                                   Telecom 5G
                                                   <span>Empower your business with secure, high-speed 5G private networks designed for unparalleled connectivity, low latency, and tailored industry applications. </span>
                                               </a>
@@ -438,7 +438,7 @@ function Header() {
                                       </div>
                                       <div className='col-md-4'>
                                           <div className='menu-box'>
-                                              <a href='#'>
+                                              <a href='/donation-app'>
                                                   Donation App
                                                   <span>Simplify giving with our donation app, designed to securely manage donations, and support your mission with ease and transparency. </span>
                                               </a>

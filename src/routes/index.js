@@ -26,6 +26,16 @@ import Team from "../pages/Team";
 import DevOps from "../pages/DevOps";
 import Dynamics from "../pages/Dynamics";
 import Cybersecurity from "../pages/Cybersecurity";
+import Finance from "../pages/Finance";
+import Retail from "../pages/Retail";
+import ECommerce from "../pages/ECommerce";
+import PMS from "../pages/PMS";
+import TOC360 from "../pages/TOC360";
+import Smartsense from "../pages/Smartsense";
+import AutomationAI from "../pages/AutomationAI";
+import Telecom5G from "../pages/Telecom5G";
+import DonationApp from "../pages/DonationApp";
+import Telecom from "../pages/Telecom";
 
 export const routes = [
   { path: "/", element: <Home />, label: "Home" },
@@ -96,4 +106,14 @@ export const routes = [
   { path: "/devops", element: <DevOps />, label: "DevOps" },
   { path: "/dynamics", element: <Dynamics />, label: "Dynamics" },
   { path: "/cybersecurity", element: <Cybersecurity />, label: "Cybersecurity" },
+  { path: "/finance", element: <Finance />, label: "Finance" },
+  { path: "/retail", element: <Retail />, label: "Retail" },
+  { path: "/ecommerce", element: <ECommerce />, label: "ECommerce" },
+  { path: "/pms", element: <PMS />, label: "PMS" },
+  { path: "/toc360", element: <TOC360 />, label: "TOC360" },
+  { path: "/smartsense", element: <Smartsense />, label: "Smartsense" },
+  { path: "/Automation-Ai", element: <AutomationAI />, label: "AutomationAI" },
+  { path: "/telecom5g", element: <Telecom5G />, label: "Telecom5G" },
+  { path: "/donation-app", element: <DonationApp />, label: "DonationApp" },
+  { path: "/telecom", element: <Telecom />, label: "Telecom" },
 ];
