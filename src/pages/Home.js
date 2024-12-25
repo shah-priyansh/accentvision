@@ -91,7 +91,7 @@ const Home = () => {
           </div>
         </div>*/}
 
-        <video muted autoPlay={"autoplay"} preLoad="auto" loop>
+        <video autoPlay muted loop>
           <source src="/assets/images/home-video.mp4" type="video/mp4" />
         </video>
       </div>
