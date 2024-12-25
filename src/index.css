@@ -985,6 +985,13 @@ ul {
 
 
 
+@media screen and (max-width: 1199px) {
+  .animation-div {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+}
 @media screen and (max-width: 1099px) {
   .main-header {
     .navbar-nav {
@@ -999,6 +1006,7 @@ ul {
       }
     }
   }
+
 }
 
 @media screen and (max-width: 991px) {
