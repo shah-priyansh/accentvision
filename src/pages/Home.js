@@ -69,35 +69,11 @@ const Home = () => {
   return (
     <div className="home-content scroll-container">
       <div className="banner-div animation-div">
-        {/*<div className="container-fluid">
-          <div className="row align-items-center">
-            <div className="col-md-7">
-              <div className="banner-content wow animate__animated animate__fadeInLeft">
-                <h1>
-                  Enterprise
-                  <span className="hl-color"> Mobile App </span>
-                </h1>
-              </div>
-            </div>
-            <div className="col-md-5">
-              <div className="banner-img wow animate__animated animate__fadeInRight">
-                <img
-                    src="/assets/images/banner-img1.png"
-                    alt="img"
-                    className="img-fluid"
-                />
-              </div>
-            </div>
-          </div>
-        </div>*/}
-
-        <video autoPlay muted loop>
-          <source src="/assets/images/home-video.mp4" type="video/mp4" />
-        </video>
+        <video src="/assets/images/home-video.mp4" playsInline loop muted autoPlay></video>
       </div>
 
       <div className="we-are-div bg-white text-primary-dark animation-div py-5">
-        <div className="container">
+      <div className="container">
           <div className="row">
             <div className="col-md-12">
               <div className="div-title text-center mb-5">
@@ -185,16 +161,17 @@ const Home = () => {
             </div>
             <div className="col-md-6">
               <div className="video w-embed wow animate__animated animate__fadeInRight">
-                <video width="100%" muted autoPlay={"autoplay"} preLoad="auto" loop>
+                {/*<video width="100%" muted autoPlay={"autoplay"} preLoad="auto" loop>
                   <source
-                    src="/assets/images/partner-video.mp4"
-                    type="video/mp4"
+                      src="/assets/images/partner-video.mp4"
+                      type="video/mp4"
                   />
-                </video>
+                </video>*/}
+                <video width="100%" src="/assets/images/partner-video.mp4" playsInline loop muted autoPlay></video>
               </div>
             </div>
           </div>
-        </div>
+      </div>
       </div>
 
       <div className="services-div animation-div">
