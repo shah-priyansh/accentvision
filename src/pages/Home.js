@@ -185,9 +185,9 @@ const Home = () => {
             </div>
             <div className="col-md-6">
               <div className="video w-embed wow animate__animated animate__fadeInRight">
-                <video width="100%" autoPlay="" loop="" muted="" playsInline="">
+                <video width="100%" muted autoPlay={"autoplay"} preLoad="auto" loop>
                   <source
-                    src="https://player.vimeo.com/progressive_redirect/playback/856965749/rendition/720p/file.mp4?loc=external&amp;signature=7910641d0578740e4b63b29071476babf145ae25232830cbdf3bf1693fd556b1"
+                    src="/assets/images/partner-video.mp4"
                     type="video/mp4"
                   />
                 </video>
