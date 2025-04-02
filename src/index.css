@@ -43,7 +43,7 @@ ul {
 }
 
 .main-header {
-  background-color: #020e24;
+  background-color: #ffffff;
   padding: 15px 0;
   position: sticky;
   top: 0;
@@ -105,7 +105,7 @@ ul {
           padding: 7px 20px;
           align-items: center;
           position: relative;
-          color: #ffffff;
+          color: #1a1b2e;
 
           &::before {
             content: "";
@@ -870,8 +870,8 @@ ul {
     display: block;
 
     a {
-      color: #ffffff;
-      border: 1px solid #fff;
+      color: var(--secodary-color);
+      border: 1px solid var(--secodary-color);
       width: 20px;
       height: 20px;
       border-radius: 5px;
@@ -887,6 +887,7 @@ ul {
       &:hover {
         background-color: var(--highlight-color);
         border-color: var(--highlight-color);
+        color: #ffffff;
       }
 
     }
@@ -939,6 +940,31 @@ ul {
 .slider-div {
   min-height: 100vh;
 }
+.contact-link span {
+  height: auto !important;
+  background-color: var(--highlight-color);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 15px !important;
+  margin: auto;
+  color: #ffffff!important;
+}
+.contact-link {
+  display: flex;
+  align-items: center;
+  margin:0 15px;
+  span:before {
+    display: none;
+  }
+  &:hover {
+   span {
+     background-color: var(--secodary-color);
+   }
+  }
+}
+
 @media(min-width:1451px){
   .animation-div {
     position: sticky;
@@ -1059,6 +1085,10 @@ ul {
     max-width: 100%;
     height: auto;
     gap: 0;
+  }
+  .contact-link {
+    margin:0;
+
   }
 }
 

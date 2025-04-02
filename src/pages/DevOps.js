@@ -8,9 +8,10 @@ function About() {
         <div className='row align-items-center'>
           <div className='col-md-6'>
             <div className='page-banner-content wow animate__animated animate__fadeInLeft'>
-              <h1>DevOps </h1>
+              <h1>SalesForce </h1>
               <p>
-                Accelerated delivery, team collaboration, and continuous improvement for your software development & deployment.
+                {/*Accelerated delivery, team collaboration, and continuous improvement for your software development & deployment.*/}
+                Salesforce solutions across industries including finance, telecom, healthcare, retail, education, 	and logistics.
               </p>
             </div>
           </div>
@@ -29,7 +30,7 @@ function About() {
             <div className='col-md-12 order-1 order-sm-1 order-md-1'>
               <div className='quality-img bg-white p-2 p-sm-2 p-md-5 mb-5 wow animate__animated animate__zoomIn'>
                 <img
-                    src="/assets/images/devops.jpg"
+                    src="/assets/images/Salesforce.jpg"
                     alt="img"
                     className="img-fluid w-100"
                 />
